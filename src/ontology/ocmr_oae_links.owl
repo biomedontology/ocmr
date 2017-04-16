@@ -1277,13 +1277,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000388"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000808"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001370"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1295,49 +1289,31 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0002184"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001370"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0002185"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001995"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
                 <owl:someValuesFrom rdf:resource="&obo;OAE_0002330"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000377"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000808"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0002003"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0002184"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
                 <owl:someValuesFrom rdf:resource="&obo;OAE_0000166"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001995"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1352,488 +1328,10 @@
                 <owl:someValuesFrom rdf:resource="&obo;OAE_0000471"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>唐春雪,宋苹.附子临床应用安全性文献系统评价[J]新中医,2008,40(4):95-101</obo:IAO_0000115>
-        <obo:IAO_0000115>骆梅娟,周至安.附子的毒性及临床应用浅析[J]Journal of Guangzhou University of Traditional Chinese Medicine,2009,26(5):512-514</obo:IAO_0000115>
-        <obo:IAO_0000115>朱林平.附子毒性研究概况[J]Jiangxi journal of traditional Chinese medicine,2004,35(6):53-55</obo:IAO_0000115>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000229 -->
-
-    <owl:Class rdf:about="&obo;TCMDPO_0000229">
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0002414"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000808"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000021"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0003245"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000590"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000464"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000956"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000503"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000937"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000461"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000430"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000724"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000402"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0002113"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000374"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000377"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0002096"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000401"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000243"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000601"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0004348"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001527"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0002658"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000752"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000587"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000544"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000619"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000607"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001489"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000307"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0003247"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000440"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0002425"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001365"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001919"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001247"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000482"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000604"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000306"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000499"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001946"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001580"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0004262"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000556"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0002485"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0002214"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000568"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001433"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0004349"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000551"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0002491"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000939"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000468"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0002330"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000573"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0002206"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000592"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001430"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000403"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000801"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000362"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000572"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000391"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000862"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001920"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0002440"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0002261"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000310"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0002552"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001998"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001215"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000505"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001166"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000491"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000589"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0004351"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001852"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0004214"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0002003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1845,55 +1343,77 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0002095"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0002185"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001509"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000377"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>朱林平.附子毒性研究概况[J]Jiangxi journal of traditional Chinese medicine,2004,35(6):53-55</obo:IAO_0000119>
+        <obo:IAO_0000119>唐春雪,宋苹.附子临床应用安全性文献系统评价[J]新中医,2008,40(4):95-101</obo:IAO_0000119>
+        <obo:IAO_0000119>骆梅娟,周至安.附子的毒性及临床应用浅析[J]Journal of Guangzhou University of Traditional Chinese Medicine,2009,26(5):512-514</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000229 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000229">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001430"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000616"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001852"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000379"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000587"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001880"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000505"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0004220"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000307"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0002042"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000468"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001922"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0002206"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000597"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000464"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000310"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1905,7 +1425,43 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000373"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000440"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001998"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0002425"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001489"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001920"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000573"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001919"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1917,13 +1473,457 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0004215"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000724"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0003245"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000616"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000544"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001580"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000482"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
                 <owl:someValuesFrom rdf:resource="&obo;OAE_0000333"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0002491"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0004215"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000379"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0004349"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0002096"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001922"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000243"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000589"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001166"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0002042"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001247"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001433"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000306"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000388"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000551"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000402"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000461"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000491"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0002330"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000862"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0002261"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000801"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000568"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0004348"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0002485"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000619"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0004214"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000939"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000430"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000937"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000572"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000503"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0002414"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000956"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001527"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000597"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000556"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0002214"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0004220"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000592"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0004351"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001880"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000601"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000808"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000607"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001215"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000403"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001365"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001509"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001946"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0002095"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0002658"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0002440"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000374"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0003247"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000373"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0004262"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000362"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000752"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0002552"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000590"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000499"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000604"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000391"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000401"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000377"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0002113"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000021"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1936,43 +1936,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001885"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001990"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001129"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000468"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000505"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000619"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000430"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000402"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1984,13 +1948,19 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001922"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000464"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000464"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001990"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000468"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2002,21 +1972,51 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000619"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001129"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
                 <owl:someValuesFrom rdf:resource="&obo;OAE_0002135"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000402"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000505"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>白芍总苷治疗强直性脊柱炎的疗效及其机制探讨[J].中药药理与临床，2009,25(3):68-70</obo:IAO_0000115>
-        <obo:IAO_0000115>唐宗忠，陈燕等.白芍总苷胶囊致疱疹一例[J].中药新药与临床药理，</obo:IAO_0000115>
-        <obo:IAO_0000115>CHEN Ji-hong， LAO Zhi-ying，et al.Effects of two different doses of total glucosides of paeony with rheumatoid
-arthritis in 150 patients[J]Chin J New Drugs Clin Rem.2011,30(10):771-774</obo:IAO_0000115>
-        <obo:IAO_0000115>胡永顺，张宝霞.白芍总苷对寻常型银屑病的治疗作用观察[J].中医药临床杂志,2013,25(2):148-150</obo:IAO_0000115>
-        <obo:IAO_0000115>翟乾勋.白芍总苷致男性乳腺增生一例[J].山西医药杂志，2005，34（8）</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001922"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000430"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001885"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>翟乾勋.白芍总苷致男性乳腺增生一例[J].山西医药杂志，2005，34（8）</obo:IAO_0000119>
+        <obo:IAO_0000119>胡永顺，张宝霞.白芍总苷对寻常型银屑病的治疗作用观察[J].中医药临床杂志,2013,25(2):148-150</obo:IAO_0000119>
+        <obo:IAO_0000119>唐宗忠，陈燕等.白芍总苷胶囊致疱疹一例[J].中药新药与临床药理，</obo:IAO_0000119>
+        <obo:IAO_0000119>CHEN Ji-hong， LAO Zhi-ying，et al.Effects of two different doses of total glucosides of paeony with rheumatoid
+arthritis in 150 patients[J]Chin J New Drugs Clin Rem.2011,30(10):771-774</obo:IAO_0000119>
+        <obo:IAO_0000119>白芍总苷治疗强直性脊柱炎的疗效及其机制探讨[J].中药药理与临床，2009,25(3):68-70</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -2027,25 +2027,73 @@ arthritis in 150 patients[J]Chin J New Drugs Clin Rem.2011,30(10):771-774</obo:I
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0002383"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000468"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001448"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001124"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000909"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000752"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000375"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0004285"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0002330"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000601"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0004221"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000557"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000542"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0004231"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000471"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000398"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2057,13 +2105,229 @@ arthritis in 150 patients[J]Chin J New Drugs Clin Rem.2011,30(10):771-774</obo:I
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000310"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000391"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000889"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000430"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001990"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000916"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000449"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001129"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001365"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000402"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001927"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000619"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0004299"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0004290"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001275"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0004292"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000123"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0002665"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0004287"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0004284"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0002383"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000556"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001493"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000724"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0004298"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001035"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000275"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000909"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000499"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000808"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000626"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000784"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0002140"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0004291"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000589"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0002000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001361"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0003244"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000388"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0004280"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2075,7 +2339,19 @@ arthritis in 150 patients[J]Chin J New Drugs Clin Rem.2011,30(10):771-774</obo:I
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000373"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000287"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000779"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000691"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2093,61 +2369,7 @@ arthritis in 150 patients[J]Chin J New Drugs Clin Rem.2011,30(10):771-774</obo:I
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001012"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001124"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0004221"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000430"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001365"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000471"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0004290"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000883"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0002140"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000619"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000373"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2159,91 +2381,7 @@ arthritis in 150 patients[J]Chin J New Drugs Clin Rem.2011,30(10):771-774</obo:I
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0004283"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0004292"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0003244"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0004234"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001904"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001493"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000626"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0002220"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000556"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001026"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000616"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000362"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000243"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0004291"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0002440"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001012"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2255,289 +2393,7 @@ arthritis in 150 patients[J]Chin J New Drugs Clin Rem.2011,30(10):771-774</obo:I
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0002206"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0004284"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000391"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000388"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000402"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000468"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000376"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000333"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000779"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000557"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0004298"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001129"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000589"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001209"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0004231"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0004280"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000916"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000275"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001361"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001990"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000752"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0004299"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000361"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000691"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001201"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000449"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001899"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0004282"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0004287"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001035"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000499"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001004"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000724"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000601"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0002330"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000123"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001922"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0004285"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000464"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0004286"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001927"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
                 <owl:someValuesFrom rdf:resource="&obo;OAE_0000508"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0004293"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000542"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000398"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000808"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000630"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0002000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2549,13 +2405,31 @@ arthritis in 150 patients[J]Chin J New Drugs Clin Rem.2011,30(10):771-774</obo:I
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000287"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0002206"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000784"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000376"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000310"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000464"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2567,62 +2441,37 @@ arthritis in 150 patients[J]Chin J New Drugs Clin Rem.2011,30(10):771-774</obo:I
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0002665"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001448"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001275"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001201"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001484"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>Yu dihua,He dong-chu. Research progress on the toxicity of Tripterygium wilfordii and attenuated synergistic approaches[J].Medical recapitulate,2015,21(3):502-504</obo:IAO_0000115>
-        <obo:IAO_0000115>邱颖文 ,吴松武.雷公藤多苷的不良反应［Ｊ］西北药学杂志,2004,19(5):220-222</obo:IAO_0000115>
-        <obo:IAO_0000115>Yin chengxia. Literature analysis of 55 cases of adverse drug reaction by G lucoside tripterygium total[J]. Chinese Journal of Pharmacovigilance,2013,10(8):478-482</obo:IAO_0000115>
-        <obo:IAO_0000115>Gao yuping ,Chen defu. Clinical study on effect of Tripterygium wilfordii hook.f.on uterin leiomyoma[J] Chin J Obstet Gynecol,2000,35(7):430-432</obo:IAO_0000115>
-        <obo:IAO_0000115>李平,陈钢.雷公藤的不良反应[J]药物不良反应杂志,2002,(4):238-240</obo:IAO_0000115>
-        <obo:IAO_0000115>Liu xumei,Liu zhihong, et al.Study progress on clinical application and side effects of Tripterygium wilfordii[J] Journal of pharmaceutical practice,2015,33(2):110-113</obo:IAO_0000115>
-        <obo:IAO_0000115>万同己.雷公藤的不良反应[J]Practical Clinical Medicine,2005,6(6):149-150</obo:IAO_0000115>
-        <obo:IAO_0000115>张青.雷公藤治疗肾炎引起类白血病反应1 例报告[J].青海医药杂志,1997,10:60</obo:IAO_0000115>
-        <obo:IAO_0000115>刘雪梅,刘志宏等.雷公藤临床应用及不良反应的研究进展[J] Jorunal of pharmaceutical practic,2015,33(2):110-113</obo:IAO_0000115>
-        <obo:IAO_0000115>徐国荣.雷公藤的临床应用与毒性反应及中毒解救[J]黑龙江中医药,2004,(3):50-51</obo:IAO_0000115>
-        <obo:IAO_0000115>唐永,张霞.雷公藤在皮肤科应用中的不良反应 (附 163 例临床分析 )[J]临床皮肤科杂志,1998,27(6):377</obo:IAO_0000115>
-        <obo:IAO_0000115>张世应.雷公藤的毒性研究[J]Hubei Journal of TCM,2015,37(3):71-73</obo:IAO_0000115>
-        <obo:IAO_0000115>文纪纯.雷公藤中毒致严重骨髓抑制6 例[J].海峡药学,1995,7(11):152 .</obo:IAO_0000115>
-        <obo:IAO_0000115>岳佳琦,韩相宁.雷公藤的不良反应[J]山东医药工业,2003,22(5):23-25</obo:IAO_0000115>
-        <obo:IAO_0000115>邹爱英,刘秀书.雷公藤多苷片的不良反应及防治对策[J].天津药学,2008,20(1):25-26</obo:IAO_0000115>
-        <obo:IAO_0000115>范兴忠, 陈勇, 李新东.雷公藤在免疫性疾病治疗中副作用的观察[ J] .中国中西医结合肾病杂志, 2001 , 2(2):83-85</obo:IAO_0000115>
-        <obo:IAO_0000115>刘为萍,刘素香.雷公藤研究新进展[J]Chinese Traditional and Herbal Drugs,2010,41(7):1215-1218</obo:IAO_0000115>
-        <obo:IAO_0000115>潘贵光,高文平.雷公藤多苷片致过敏反应１例[J].药物不良反应与相互作用,2003,21(1):52</obo:IAO_0000115>
-        <obo:IAO_0000115>谢宝官,钟文.雷公藤多甙片副作用的临床观察[J].Guang x i M edical Journal,2002,24(4):576-579</obo:IAO_0000115>
-        <obo:IAO_0000115>张立放,杨淑清.雷公藤的不良反应[J].Journal of Mathematical Medicine,2003,16(5):442-443</obo:IAO_0000115>
-        <obo:IAO_0000115>高丽,白赟.雷公藤毒性反应研究进展[J].Chinese Journal of Information on TCM,2012,19(4):107-110</obo:IAO_0000115>
-        <obo:IAO_0000115>贾春伶.雷公藤不良反应的文献调查与分析[J].北京中医,2006,25(1):45-48</obo:IAO_0000115>
-        <obo:IAO_0000115>许杰州,黄少弼.雷公藤多贰的副作用12例报告[J]汕头大学医学院学报,1996(2):36-37</obo:IAO_0000115>
-        <obo:IAO_0000115>柯坤字.雷公藤多苷片引起肝损害一例报告[J]实用临床医学杂志社,2009,10(7):40-42</obo:IAO_0000115>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000329 -->
-
-    <owl:Class rdf:about="&obo;TCMDPO_0000329">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000724"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0002220"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000391"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001004"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0004234"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000375"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2634,13 +2483,164 @@ arthritis in 150 patients[J]Chin J New Drugs Clin Rem.2011,30(10):771-774</obo:I
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000430"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001904"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000471"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000361"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000333"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000616"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0004293"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000883"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001209"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000243"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000889"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001484"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0004282"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0004286"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0002440"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000630"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0004283"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001899"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000362"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>许杰州,黄少弼.雷公藤多贰的副作用12例报告[J]汕头大学医学院学报,1996(2):36-37</obo:IAO_0000119>
+        <obo:IAO_0000119>潘贵光,高文平.雷公藤多苷片致过敏反应１例[J].药物不良反应与相互作用,2003,21(1):52</obo:IAO_0000119>
+        <obo:IAO_0000119>岳佳琦,韩相宁.雷公藤的不良反应[J]山东医药工业,2003,22(5):23-25</obo:IAO_0000119>
+        <obo:IAO_0000119>范兴忠, 陈勇, 李新东.雷公藤在免疫性疾病治疗中副作用的观察[ J] .中国中西医结合肾病杂志, 2001 , 2(2):83-85</obo:IAO_0000119>
+        <obo:IAO_0000119>谢宝官,钟文.雷公藤多甙片副作用的临床观察[J].Guang x i M edical Journal,2002,24(4):576-579</obo:IAO_0000119>
+        <obo:IAO_0000119>贾春伶.雷公藤不良反应的文献调查与分析[J].北京中医,2006,25(1):45-48</obo:IAO_0000119>
+        <obo:IAO_0000119>张立放,杨淑清.雷公藤的不良反应[J].Journal of Mathematical Medicine,2003,16(5):442-443</obo:IAO_0000119>
+        <obo:IAO_0000119>张青.雷公藤治疗肾炎引起类白血病反应1 例报告[J].青海医药杂志,1997,10:60</obo:IAO_0000119>
+        <obo:IAO_0000119>万同己.雷公藤的不良反应[J]Practical Clinical Medicine,2005,6(6):149-150</obo:IAO_0000119>
+        <obo:IAO_0000119>Yu dihua,He dong-chu. Research progress on the toxicity of Tripterygium wilfordii and attenuated synergistic approaches[J].Medical recapitulate,2015,21(3):502-504</obo:IAO_0000119>
+        <obo:IAO_0000119>刘为萍,刘素香.雷公藤研究新进展[J]Chinese Traditional and Herbal Drugs,2010,41(7):1215-1218</obo:IAO_0000119>
+        <obo:IAO_0000119>高丽,白赟.雷公藤毒性反应研究进展[J].Chinese Journal of Information on TCM,2012,19(4):107-110</obo:IAO_0000119>
+        <obo:IAO_0000119>张世应.雷公藤的毒性研究[J]Hubei Journal of TCM,2015,37(3):71-73</obo:IAO_0000119>
+        <obo:IAO_0000119>邱颖文 ,吴松武.雷公藤多苷的不良反应［Ｊ］西北药学杂志,2004,19(5):220-222</obo:IAO_0000119>
+        <obo:IAO_0000119>Yin chengxia. Literature analysis of 55 cases of adverse drug reaction by G lucoside tripterygium total[J]. Chinese Journal of Pharmacovigilance,2013,10(8):478-482</obo:IAO_0000119>
+        <obo:IAO_0000119>Gao yuping ,Chen defu. Clinical study on effect of Tripterygium wilfordii hook.f.on uterin leiomyoma[J] Chin J Obstet Gynecol,2000,35(7):430-432</obo:IAO_0000119>
+        <obo:IAO_0000119>Liu xumei,Liu zhihong, et al.Study progress on clinical application and side effects of Tripterygium wilfordii[J] Journal of pharmaceutical practice,2015,33(2):110-113</obo:IAO_0000119>
+        <obo:IAO_0000119>唐永,张霞.雷公藤在皮肤科应用中的不良反应 (附 163 例临床分析 )[J]临床皮肤科杂志,1998,27(6):377</obo:IAO_0000119>
+        <obo:IAO_0000119>李平,陈钢.雷公藤的不良反应[J]药物不良反应杂志,2002,(4):238-240</obo:IAO_0000119>
+        <obo:IAO_0000119>徐国荣.雷公藤的临床应用与毒性反应及中毒解救[J]黑龙江中医药,2004,(3):50-51</obo:IAO_0000119>
+        <obo:IAO_0000119>邹爱英,刘秀书.雷公藤多苷片的不良反应及防治对策[J].天津药学,2008,20(1):25-26</obo:IAO_0000119>
+        <obo:IAO_0000119>文纪纯.雷公藤中毒致严重骨髓抑制6 例[J].海峡药学,1995,7(11):152 .</obo:IAO_0000119>
+        <obo:IAO_0000119>刘雪梅,刘志宏等.雷公藤临床应用及不良反应的研究进展[J] Jorunal of pharmaceutical practic,2015,33(2):110-113</obo:IAO_0000119>
+        <obo:IAO_0000119>柯坤字.雷公藤多苷片引起肝损害一例报告[J]实用临床医学杂志社,2009,10(7):40-42</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000329 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000329">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000243"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0002439"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001509"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000883"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000402"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2658,13 +2658,13 @@ arthritis in 150 patients[J]Chin J New Drugs Clin Rem.2011,30(10):771-774</obo:I
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000402"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000724"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000688"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000391"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2676,25 +2676,13 @@ arthritis in 150 patients[J]Chin J New Drugs Clin Rem.2011,30(10):771-774</obo:I
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0002440"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001493"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0002439"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000464"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000373"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001922"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2712,128 +2700,6 @@ arthritis in 150 patients[J]Chin J New Drugs Clin Rem.2011,30(10):771-774</obo:I
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000883"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000468"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000243"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001493"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001509"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>李顺英,张超等.昆明山海棠的临床应用[J]中国民族民间医药杂志,2006,(83):325-330</obo:IAO_0000115>
-        <obo:IAO_0000115>王金平,李红星等.火把花根的化学成分和临床应用及不良反应综述[J]重庆中草药研究,2011,(63):41-44</obo:IAO_0000115>
-        <obo:IAO_0000115>赵　慧.火把花根片过敏反应1例[ J ]. 山东中医杂志, 2000, 19( 5):294</obo:IAO_0000115>
-        <obo:IAO_0000115>姚逸,杨清林.昆明山海棠的研究概况[J]时珍国医国药,2001,12(2):1129-1131</obo:IAO_0000115>
-        <obo:IAO_0000115>舒尚义. 口服昆明山海棠引起经闭42 例临床观察[J].昆明医学院学报,1980,(3):38-42.</obo:IAO_0000115>
-        <obo:IAO_0000115>徐棠本. 服昆明山海棠片出现过敏反应1 例[ J] . 中国中药杂志,1996, 21( 12): 755.</obo:IAO_0000115>
-        <obo:IAO_0000115>Zhong, J., Xian, D., Xu, Y. &amp; Liu, J. Efficacy of Tripterygium hypoglaucum Hutch in adults with chronic urticaria. Journal of alternative and complementary medicine 17, 459-464 (2011)</obo:IAO_0000115>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000339 -->
-
-    <owl:Class rdf:about="&obo;TCMDPO_0000339">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0004301"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000333"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000411"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000268"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000724"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001863"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001906"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000471"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0002121"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000808"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000377"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0002112"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000086"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
                 <owl:someValuesFrom rdf:resource="&obo;OAE_0000430"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2846,13 +2712,57 @@ arthritis in 150 patients[J]Chin J New Drugs Clin Rem.2011,30(10):771-774</obo:I
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000275"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000471"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0002440"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000468"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000688"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000464"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>舒尚义. 口服昆明山海棠引起经闭42 例临床观察[J].昆明医学院学报,1980,(3):38-42.</obo:IAO_0000119>
+        <obo:IAO_0000119>王金平,李红星等.火把花根的化学成分和临床应用及不良反应综述[J]重庆中草药研究,2011,(63):41-44</obo:IAO_0000119>
+        <obo:IAO_0000119>姚逸,杨清林.昆明山海棠的研究概况[J]时珍国医国药,2001,12(2):1129-1131</obo:IAO_0000119>
+        <obo:IAO_0000119>Zhong, J., Xian, D., Xu, Y. &amp; Liu, J. Efficacy of Tripterygium hypoglaucum Hutch in adults with chronic urticaria. Journal of alternative and complementary medicine 17, 459-464 (2011)</obo:IAO_0000119>
+        <obo:IAO_0000119>李顺英,张超等.昆明山海棠的临床应用[J]中国民族民间医药杂志,2006,(83):325-330</obo:IAO_0000119>
+        <obo:IAO_0000119>赵　慧.火把花根片过敏反应1例[ J ]. 山东中医杂志, 2000, 19( 5):294</obo:IAO_0000119>
+        <obo:IAO_0000119>徐棠本. 服昆明山海棠片出现过敏反应1 例[ J] . 中国中药杂志,1996, 21( 12): 755.</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000339 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000339">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
                 <owl:someValuesFrom rdf:resource="&obo;OAE_0001927"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001045"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2864,7 +2774,7 @@ arthritis in 150 patients[J]Chin J New Drugs Clin Rem.2011,30(10):771-774</obo:I
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000391"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0002073"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2876,19 +2786,49 @@ arthritis in 150 patients[J]Chin J New Drugs Clin Rem.2011,30(10):771-774</obo:I
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0000243"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001906"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0002073"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0002121"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000391"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000373"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
                 <owl:someValuesFrom rdf:resource="&obo;OAE_0000505"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0001863"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000243"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000268"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2906,7 +2846,37 @@ arthritis in 150 patients[J]Chin J New Drugs Clin Rem.2011,30(10):771-774</obo:I
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="&obo;OAE_0001045"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000377"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000430"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000411"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000724"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000333"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000808"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2915,18 +2885,48 @@ arthritis in 150 patients[J]Chin J New Drugs Clin Rem.2011,30(10):771-774</obo:I
                 <owl:someValuesFrom rdf:resource="&obo;OAE_0000883"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>顾越英,陈顺乐等. 正清风痛宁治疗类风湿性关节炎临床疗效及安全性的观察[A]. 中国中西医结合学会.第四届全国中西医结合风湿类疾病学术会议论文汇编[C] 2000:11-19</obo:IAO_0000115>
-        <obo:IAO_0000115>刘丙欣 ,吴士云.正清风痛宁肠清片致自身免疫性溶血性贫血[J]齐鲁药事，2010，29（12）：750-751</obo:IAO_0000115>
-        <obo:IAO_0000115>施生文, 叶松年, 苏德禹.正清风痛宁致剥脱性皮炎治疗无效 死亡 1例[J] .海峡药学, 1999, 11(1):61.</obo:IAO_0000115>
-        <obo:IAO_0000115>余建强, 黄宇明.正清风痛宁治疗风湿病 695 例临床总结[J].Hunan journal of traditional Chinese medicine,1998,10(2):18-20</obo:IAO_0000115>
-        <obo:IAO_0000115>Xiao wenxing, Shi ruhai, et al. Acute hematopoietic disorder caused by Zhengqingfengtongning[J]. Adverse Drug Reactions Journal,2006,8(1):62</obo:IAO_0000115>
-        <obo:IAO_0000115>Sunruihua,Linzongguang.Observation of the Therapeutic Effect of“True Wind_Pain Eliminator”in Treating 38 Cases of Rheumatoid Arthritis[J]. Shanghai jorunal of traditional Chinese medicine,1999,33(2): 21-23</obo:IAO_0000115>
-        <obo:IAO_0000115>Cheng zongq i,Miao liyan. Literatrue analysisi of ADR of Zhengqingfengtongning[J].Anti-infection pharmacy,2007,4(4):184-186</obo:IAO_0000115>
-        <obo:IAO_0000115>Ge hongxing, Li qing, et al. 正清风痛宁的不良反应与合理用药建议[J] Chinese Traditional Patent Medicine.2010,32(2):287-289</obo:IAO_0000115>
-        <obo:IAO_0000115>陈忠德.正清风痛宁和复方双氯芬酸钠治疗类风湿性关节炎 60例[J].医药导报,1999,18(5):309</obo:IAO_0000115>
-        <obo:IAO_0000115>Hu Yonghong, Lai Xianyang. Therapeutic effects and side effects of Zhengqingfengtongning in the Treatment of Osteoarthritis[J].Zhongguo Kang fu, 2001,16(2):85-88</obo:IAO_0000115>
-        <obo:IAO_0000115>Wu Juan, Li Yan-hong. The Side Effects and Prevention of Drug Treatment byZhengqingfengtongning[J].Chinese Journal of Medicinal Guide,2012,14(2):250-252</obo:IAO_0000115>
-        <obo:IAO_0000115>李宏.服正清风痛宁片引起月经紊乱 2 例[J].China Journal of Chinese Materia Medica, 2002,27(4)：314-315</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000275"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0004301"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000471"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0002112"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="&obo;OAE_0000086"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>陈忠德.正清风痛宁和复方双氯芬酸钠治疗类风湿性关节炎 60例[J].医药导报,1999,18(5):309</obo:IAO_0000119>
+        <obo:IAO_0000119>刘丙欣 ,吴士云.正清风痛宁肠清片致自身免疫性溶血性贫血[J]齐鲁药事，2010，29（12）：750-751</obo:IAO_0000119>
+        <obo:IAO_0000119>余建强, 黄宇明.正清风痛宁治疗风湿病 695 例临床总结[J].Hunan journal of traditional Chinese medicine,1998,10(2):18-20</obo:IAO_0000119>
+        <obo:IAO_0000118>Hu Yonghong, Lai Xianyang. Therapeutic effects and side effects of Zhengqingfengtongning in the Treatment of Osteoarthritis[J].Zhongguo Kang fu, 2001,16(2):85-88</obo:IAO_0000118>
+        <obo:IAO_0000119>施生文, 叶松年, 苏德禹.正清风痛宁致剥脱性皮炎治疗无效 死亡 1例[J] .海峡药学, 1999, 11(1):61.</obo:IAO_0000119>
+        <obo:IAO_0000119>Wu Juan, Li Yan-hong. The Side Effects and Prevention of Drug Treatment byZhengqingfengtongning[J].Chinese Journal of Medicinal Guide,2012,14(2):250-252</obo:IAO_0000119>
+        <obo:IAO_0000119>Cheng zongq i,Miao liyan. Literatrue analysisi of ADR of Zhengqingfengtongning[J].Anti-infection pharmacy,2007,4(4):184-186</obo:IAO_0000119>
+        <obo:IAO_0000118>Sunruihua,Linzongguang.Observation of the Therapeutic Effect of“True Wind_Pain Eliminator”in Treating 38 Cases of Rheumatoid Arthritis[J]. Shanghai jorunal of traditional Chinese medicine,1999,33(2): 21-23</obo:IAO_0000118>
+        <obo:IAO_0000119>李宏.服正清风痛宁片引起月经紊乱 2 例[J].China Journal of Chinese Materia Medica, 2002,27(4)：314-315</obo:IAO_0000119>
+        <obo:IAO_0000118>Ge hongxing, Li qing, et al. 正清风痛宁的不良反应与合理用药建议[J] Chinese Traditional Patent Medicine.2010,32(2):287-289</obo:IAO_0000118>
+        <obo:IAO_0000119>顾越英,陈顺乐等. 正清风痛宁治疗类风湿性关节炎临床疗效及安全性的观察[A]. 中国中西医结合学会.第四届全国中西医结合风湿类疾病学术会议论文汇编[C] 2000:11-19</obo:IAO_0000119>
+        <obo:IAO_0000119>Xiao wenxing, Shi ruhai, et al. Acute hematopoietic disorder caused by Zhengqingfengtongning[J]. Adverse Drug Reactions Journal,2006,8(1):62</obo:IAO_0000119>
     </owl:Class>
 </rdf:RDF>
 

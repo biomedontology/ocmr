@@ -37,7 +37,7 @@
      xmlns:subsets="&obo;ro/subsets#">
     <owl:Ontology rdf:about="&obo;ocmr.owl">
         <dc:creator>Yongqun Oliver He</dc:creator>
-        <dc:date>2017-04-15</dc:date>
+        <dc:date>2017-04-16</dc:date>
         <dc:subject xml:lang="en">An ontology of adverse events associated with Chinese medicines.</dc:subject>
         <obo:IAO_0000116 xml:lang="en">Draft version</obo:IAO_0000116>
         <dc:creator>Jiahao Wang</dc:creator>
@@ -45,7 +45,7 @@
         <dc:creator>Qingping Liu</dc:creator>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:description xml:lang="en">The Ontology of Chinese Medicine for Rheumatism (OCMR) is a biomedical ontology that represents traditional Chinese medications for treating various rheumatism diseases, their ingredients, and adverse events, and other related information.</dc:description>
-        <owl:versionInfo xml:lang="en">Vision Release; 1.0.7</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release; 1.0.8</owl:versionInfo>
         <owl:imports rdf:resource="&obo;dron.owl"/>
         <owl:imports rdf:resource="&obo;ocmr_chebi_links.owl"/>
         <owl:imports rdf:resource="&obo;ocmr_oae_links.owl"/>
@@ -254,7 +254,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="&obo;PO_0009047"/>
+                            <rdf:Description rdf:about="&obo;PO_0009005"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
                                 <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_228726"/>
@@ -270,7 +270,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="&obo;PO_0009005"/>
+                            <rdf:Description rdf:about="&obo;PO_0009047"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
                                 <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_228726"/>
@@ -446,7 +446,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="&obo;PO_0025034"/>
+                            <rdf:Description rdf:about="&obo;PO_0009047"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
                                 <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_3498"/>
@@ -462,7 +462,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="&obo;PO_0009047"/>
+                            <rdf:Description rdf:about="&obo;PO_0025034"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
                                 <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_3498"/>
@@ -813,7 +813,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="&obo;PO_0009047"/>
+                            <rdf:Description rdf:about="&obo;PO_0025034"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
                                 <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_69389"/>
@@ -829,7 +829,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="&obo;PO_0025034"/>
+                            <rdf:Description rdf:about="&obo;PO_0009047"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
                                 <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_69389"/>
