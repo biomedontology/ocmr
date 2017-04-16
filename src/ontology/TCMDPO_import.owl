@@ -1,0 +1,1661 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="&obo;ocmr/TCMDPO_import.owl#"
+     xml:base="&obo;ocmr/TCMDPO_import.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="&obo;ocmr/TCMDPO_import.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000320 -->
+
+    <owl:ObjectProperty rdf:about="&obo;TCMDPO_0000320">
+        <rdfs:label xml:lang="en">has...channel tropism</rdfs:label>
+        <rdfs:label xml:lang="zh">归...经</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:allValuesFrom rdf:resource="&obo;TCMDPO_0000062"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000001"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000321 -->
+
+    <owl:ObjectProperty rdf:about="&obo;TCMDPO_0000321">
+        <rdfs:label xml:lang="en">has..nature </rdfs:label>
+        <rdfs:label xml:lang="zh">具有...药性</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000001"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:allValuesFrom rdf:resource="&obo;TCMDPO_0000063"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000322 -->
+
+    <owl:ObjectProperty rdf:about="&obo;TCMDPO_0000322">
+        <rdfs:label xml:lang="en">has...flavour</rdfs:label>
+        <rdfs:label xml:lang="zh">具有...药味</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000001"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:allValuesFrom rdf:resource="&obo;TCMDPO_0000064"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000323 -->
+
+    <owl:ObjectProperty rdf:about="&obo;TCMDPO_0000323">
+        <rdfs:label xml:lang="en">has...toxicity</rdfs:label>
+        <rdfs:label xml:lang="zh">具有...毒性</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000323"/>
+                <owl:allValuesFrom rdf:resource="&obo;TCMDPO_0000065"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000323"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000001"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000001 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000001">
+        <rdfs:label xml:lang="zh">中药饮片</rdfs:label>
+        <obo:IAO_0000118 xml:lang="en">Decoction Pieces</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">With crude medicine as raw materials, according to Chinese medicine theory, after processing, it can be directly used in traditional Chinese medicine clinical or pharmaceutical production and use of prescription drugs.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="zh">中华人民共和国国家质量监督检验检疫总局中国国家标准化管理委员会.GB/T 31774-2015 中华人民共和国国家标准，中药编码规则及编码[S].2015.</rdfs:isDefinedBy>
+        <rdfs:comment xml:lang="zh">以中药材为原材料，按中医药理论，经过加工炮制后，可直接用于中医临床或制剂生产使用的处方药品。</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000007 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000007">
+        <rdfs:label xml:lang="zh">祛风湿药</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000001"/>
+        <obo:IAO_0000118 xml:lang="en">Dispelling Pathogenic Wind and Dampeness Drugs</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000010 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000010">
+        <rdfs:label xml:lang="zh">温里药</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000001"/>
+        <obo:IAO_0000118 xml:lang="en">Warming Interior Drug</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000015 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000015">
+        <rdfs:label xml:lang="zh">活血化瘀药</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000001"/>
+        <obo:IAO_0000118 xml:lang="en">Promoting Blood Circulation and Removing Blood Stasis Drugs</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000020 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000020">
+        <rdfs:label xml:lang="zh">补虚药</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000001"/>
+        <obo:IAO_0000118 xml:lang="en">Supplementing and Boosting Drugs</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000034 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000034">
+        <rdfs:label xml:lang="en">TCM wind-damp dispelling and cold-dispersing drug</rdfs:label>
+        <rdfs:label xml:lang="zh">祛风湿散寒药</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000007"/>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000035 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000035">
+        <rdfs:label xml:lang="zh">祛风湿清热药</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000007"/>
+        <obo:IAO_0000118 xml:lang="en">Winddamp-dispelling and Heat-clearing Drugs</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000036 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000036">
+        <rdfs:label xml:lang="zh">祛风湿强筋骨药</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000007"/>
+        <obo:IAO_0000118 xml:lang="en">Winddamp-dispelling and Tendon-bone-strengthening Drugs</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000046 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000046">
+        <rdfs:label xml:lang="zh">活血疗伤药</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000015"/>
+        <obo:IAO_0000118 xml:lang="en">Blood-activating and Trauma-curing Drugs</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000057 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000057">
+        <rdfs:label xml:lang="zh">补血药</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000020"/>
+        <obo:IAO_0000118 xml:lang="en">Blood-supplementing Drugs</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000062 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000062">
+        <rdfs:label xml:lang="en">Channel Tropism</rdfs:label>
+        <rdfs:label xml:lang="zh">药物作用部位</rdfs:label>
+        <rdfs:comment xml:lang="zh">药物对于机体某部分的选择性作用。</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="zh">钟赣生主编.中药学[M].北京：中国中医药出版社，2012.</rdfs:isDefinedBy>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000063 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000063">
+        <rdfs:label xml:lang="en">TCD nature</rdfs:label>
+        <rdfs:label xml:lang="zh">四气（中药）</rdfs:label>
+        <rdfs:comment xml:lang="zh">寒热温凉四种不同的药性。</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="zh">钟赣生主编.中药学[M].北京：中国中医药出版社，2012.</rdfs:isDefinedBy>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000064 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000064">
+        <rdfs:label xml:lang="en">TCD flavour</rdfs:label>
+        <rdfs:label xml:lang="zh">中药五味</rdfs:label>
+        <rdfs:comment xml:lang="zh">药物所具有的酸、苦、甘、辛、咸不同的药味。</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="zh">钟赣生主编.中药学[M].北京：中国中医药出版社，2012.</rdfs:isDefinedBy>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000065 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000065">
+        <rdfs:label xml:lang="en">Toxicity of Chinese Medicine</rdfs:label>
+        <rdfs:label xml:lang="zh">毒性</rdfs:label>
+        <rdfs:isDefinedBy xml:lang="zh">侯士良主编.中药八百种详解[M].郑州：河南科学技术出版社.2009.</rdfs:isDefinedBy>
+        <rdfs:comment xml:lang="zh">药物对机体的损害性。</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000066 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000066">
+        <rdfs:label xml:lang="en">Liver Meridian</rdfs:label>
+        <rdfs:label xml:lang="zh">肝经</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000062"/>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000067 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000067">
+        <rdfs:label xml:lang="en">Cold (TCD)</rdfs:label>
+        <rdfs:label xml:lang="zh">寒（中药）</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000063"/>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000068 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000068">
+        <rdfs:label xml:lang="en">Hot (TCD)</rdfs:label>
+        <rdfs:label xml:lang="zh">热（中药）</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000063"/>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000069 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000069">
+        <rdfs:label xml:lang="en">Gallbladder Meridian</rdfs:label>
+        <rdfs:label xml:lang="zh">胆经</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000062"/>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000070 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000070">
+        <rdfs:label xml:lang="en">Sour (TCD)</rdfs:label>
+        <rdfs:label xml:lang="zh">酸（中药）</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000064"/>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000071 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000071">
+        <rdfs:label xml:lang="en">Warm (TCM)	</rdfs:label>
+        <rdfs:label xml:lang="zh">温（中药）</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000063"/>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000072 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000072">
+        <rdfs:label xml:lang="en">Cool (TCD)</rdfs:label>
+        <rdfs:label xml:lang="zh">凉（中药）</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000063"/>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000075 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000075">
+        <rdfs:label xml:lang="en">Mild(TCM)</rdfs:label>
+        <rdfs:label xml:lang="zh">平（中药）</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000063"/>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000076 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000076">
+        <rdfs:label xml:lang="en">bitter (TCD)</rdfs:label>
+        <rdfs:label xml:lang="zh">苦（中药）</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000064"/>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000077 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000077">
+        <rdfs:label xml:lang="en">Sweet (TCD)	 </rdfs:label>
+        <rdfs:label xml:lang="zh">甘（中药）</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000064"/>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000078 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000078">
+        <rdfs:label xml:lang="en">Pungent (TCD)</rdfs:label>
+        <rdfs:label xml:lang="zh">辛（中药）</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000064"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000079 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000079">
+        <rdfs:label xml:lang="en">Salty (TCD)</rdfs:label>
+        <rdfs:label xml:lang="zh">咸（中药）</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000064"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000080 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000080">
+        <rdfs:label xml:lang="en">Strong Toxicity</rdfs:label>
+        <rdfs:label xml:lang="zh">大毒</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000065"/>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000081 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000081">
+        <rdfs:label xml:lang="en">Slightly Toxicity</rdfs:label>
+        <rdfs:label xml:lang="zh">有毒</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000065"/>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000085 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000085">
+        <rdfs:label xml:lang="en">Spleen Meridian</rdfs:label>
+        <rdfs:label xml:lang="zh">脾经</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000062"/>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000086 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000086">
+        <rdfs:label xml:lang="en">Stomach Meridian</rdfs:label>
+        <rdfs:label xml:lang="zh">胃经</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000062"/>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000087 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000087">
+        <rdfs:label xml:lang="en">Heart Meridian</rdfs:label>
+        <rdfs:label xml:lang="zh">心经</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000062"/>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000089 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000089">
+        <rdfs:label xml:lang="en">Kidney Meridian</rdfs:label>
+        <rdfs:label xml:lang="zh">肾经</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000062"/>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000090 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000090">
+        <rdfs:label xml:lang="en">Bladder Meridian</rdfs:label>
+        <rdfs:label xml:lang="zh">膀胱经</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000062"/>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000152 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000152">
+        <rdfs:label xml:lang="en">black-tail snake TCM</rdfs:label>
+        <rdfs:label xml:lang="la">Zaocys</rdfs:label>
+        <rdfs:label xml:lang="zh">乌梢蛇</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000034"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000077"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000075"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000155 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000155">
+        <rdfs:label xml:lang="la">Cynanchi Paniculati Radix et Rhizoma</rdfs:label>
+        <rdfs:label xml:lang="zh">徐长卿</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000034"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000086"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000071"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118 xml:lang="en">Paniculate Swallowwort Root</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000156 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000156">
+        <rdfs:label xml:lang="la">Clematidis Radix et Rhizoma</rdfs:label>
+        <rdfs:label xml:lang="zh">威灵仙</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000034"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000071"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000079"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118 xml:lang="en">Chinese Clematis Root</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000157 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000157">
+        <rdfs:label xml:lang="la">Angelicae Pubescentis Radix</rdfs:label>
+        <rdfs:label xml:lang="zh">独活</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000034"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000325"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000089"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118 xml:lang="en">Doubleteeth Pubescent Angelica Root</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000158 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000158">
+        <rdfs:label xml:lang="la">Erythrinae Cortex</rdfs:label>
+        <rdfs:label xml:lang="zh">海桐皮</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000035"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000075"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118 xml:lang="en">Oriental Variegated Coralbean Bark</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000159 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000159">
+        <rdfs:label xml:lang="la">Clerodendri Trichotomi Ramulus et Folium</rdfs:label>
+        <rdfs:label xml:lang="zh">臭梧桐</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000035"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000077"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118 xml:lang="en">Harlequin Glorybower Leaf</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000160 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000160">
+        <rdfs:label xml:lang="la">Siegesbeckiae Herba</rdfs:label>
+        <rdfs:label xml:lang="zh">豨莶草</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000035"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000089"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118 xml:lang="en">Siegesbeckia Herb</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000161 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000161">
+        <rdfs:label xml:lang="la">Mori Ramulus</rdfs:label>
+        <rdfs:label xml:lang="zh">桑枝</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000035"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000324"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000075"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118 xml:lang="en">Mulberry Twig</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000163 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000163">
+        <rdfs:label xml:lang="la">Gentianae Macrophyllae Radix</rdfs:label>
+        <rdfs:label xml:lang="zh">秦艽</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000035"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000075"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000069"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000086"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118 xml:lang="en">Largeleaf Gentian Root</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000165 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000165">
+        <rdfs:label xml:lang="la">Homalomenae Rhizoma</rdfs:label>
+        <rdfs:label xml:lang="zh">千年健</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000036"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000071"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000089"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118 xml:lang="en">Obscured Homalomena Rhizome</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000167 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000167">
+        <rdfs:label xml:lang="la">Talxilli Herba</rdfs:label>
+        <rdfs:label xml:lang="zh">桑寄生</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000036"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000075"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000077"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000089"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118 xml:lang="en">Chinese Taxillus Herb</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000168 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000168">
+        <rdfs:label xml:lang="la">Acanthopanacis Cortex</rdfs:label>
+        <rdfs:label xml:lang="zh">五加皮</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000036"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000089"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000071"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118 xml:lang="en">Acanthopanax Root Bark</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000192 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000192">
+        <rdfs:label xml:lang="la">Aconiti Lateralis Radix Praeparaka</rdfs:label>
+        <rdfs:label xml:lang="zh">附子</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000010"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000326"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000085"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000323"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000087"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000077"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000089"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118 xml:lang="en">Prepared Common Monkshood Branched Root</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000229 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000229">
+        <rdfs:label xml:lang="la">Strychni Semen</rdfs:label>
+        <rdfs:label xml:lang="zh">马钱子</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000046"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000323"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000080"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000085"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000071"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118 xml:lang="en">Nux Vomica</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000288 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000288">
+        <rdfs:label xml:lang="la">Paeoniae Radix Alba</rdfs:label>
+        <rdfs:label xml:lang="zh">白芍</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000057"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000070"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000335"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000085"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118 xml:lang="en">Debark Peony Root</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000324 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000324">
+        <rdfs:label xml:lang="en">slightly bitter(TCD)</rdfs:label>
+        <rdfs:label xml:lang="zh">微苦（中药）</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000076"/>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000325 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000325">
+        <rdfs:label xml:lang="en">Slightly Warm(TCD)</rdfs:label>
+        <rdfs:label xml:lang="zh">微温（中药）</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000071"/>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000326 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000326">
+        <rdfs:label xml:lang="en">Extremely Hot(TCD)</rdfs:label>
+        <rdfs:label xml:lang="zh">大热</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000068"/>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000328 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000328">
+        <rdfs:label xml:lang="la">Tripterygii  Radix et Rhizoma</rdfs:label>
+        <rdfs:label xml:lang="zh">雷公藤</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000035"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000323"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000080"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000089"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118 xml:lang="en">Common Threewingnut Root</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000329 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000329">
+        <rdfs:label xml:lang="zh">昆明山海棠</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000034"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000325"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000323"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000080"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000085"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000089"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118 xml:lang="en">Tripterygii Hypoglauci Radix</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000330 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000330">
+        <rdfs:label xml:lang="la">Faeces Bombycis</rdfs:label>
+        <rdfs:label xml:lang="zh">蚕沙</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000034"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000071"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000085"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000077"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000086"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118 xml:lang="en">Silk-worm Droppings</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000331 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000331">
+        <rdfs:label xml:lang="la">Stephaniae Tetrandrae Radix</rdfs:label>
+        <rdfs:label xml:lang="zh">粉防己</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000035"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000089"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000085"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118 xml:lang="en">Fourstamen Stephania Root</obo:IAO_0000118>
+        <rdfs:comment xml:lang="zh">为防己科多年生木质藤本植物粉防己或马兜铃科多年生缠绕草本植物广防己的根，具有祛风湿、止痛、利水的功效，临床用于治疗风湿痹痛、水肿、腹水、脚气浮肿。</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000332 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000332">
+        <rdfs:label xml:lang="la">Piperis Kadsurae Caulis</rdfs:label>
+        <rdfs:label xml:lang="zh">海风藤</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000034"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000325"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118 xml:lang="en">Kadsura Pepper Stem</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000333 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000333">
+        <rdfs:label xml:lang="la">Os Panthera Tigris</rdfs:label>
+        <rdfs:label xml:lang="zh">虎骨</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000036"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000089"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000071"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118 xml:lang="en">Tiger Bone</obo:IAO_0000118>
+        <rdfs:comment xml:lang="zh">为猫科动物虎的骨胳，具有追风定痛、健骨镇惊的功效，临床用于治疗历节风痛、四肢拘挛、腰脚不随、惊悸癫痫、痔瘘脱肛等。</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000334 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000334">
+        <rdfs:label xml:lang="en">Chinese starjasmine stem TCM</rdfs:label>
+        <rdfs:label xml:lang="la">Trachlospermi Caulis et Folium</rdfs:label>
+        <rdfs:label xml:lang="zh">络石藤</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000035"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000335"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000087"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000089"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000335 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000335">
+        <rdfs:label xml:lang="en">Slightly Cold（TCD）</rdfs:label>
+        <rdfs:label xml:lang="zh">微寒（中药）</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000067"/>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000336 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000336">
+        <rdfs:label xml:lang="la">Chaenomelis Fructus</rdfs:label>
+        <rdfs:label xml:lang="zh">木瓜</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000034"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000071"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000089"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000070"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118 xml:lang="en">Common Floweringqince Fruit</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000337 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000337">
+        <rdfs:label xml:lang="la">Lignum Pini Nodi</rdfs:label>
+        <rdfs:label xml:lang="zh">松节</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000034"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000089"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000071"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118 xml:lang="en">Chinese Pine Nodular Branch</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000338 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000338">
+        <rdfs:label xml:lang="la">Aristolochiae Mollissimae Herba</rdfs:label>
+        <rdfs:label xml:lang="zh">寻骨风</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000034"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000075"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118 xml:lang="en">Wooly Datchmanspipe Herb</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000339 -->
+
+    <owl:Class rdf:about="&obo;TCMDPO_0000339">
+        <rdfs:label xml:lang="la">Sinomenii Caulis</rdfs:label>
+        <rdfs:label xml:lang="zh">青风藤</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000034"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000075"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000085"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118 xml:lang="en">Ovientvine Stem</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+

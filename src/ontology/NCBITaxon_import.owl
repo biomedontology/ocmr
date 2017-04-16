@@ -1,0 +1,793 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ocmr/NCBITaxon_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ocmr/NCBITaxon_import.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ocmr/NCBITaxon_import.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/hasDbXref"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ncbitaxon#has_rank">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_rank</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A metadata relation between a class and its taxonomic rank (eg species, family)</obo:IAO_0000115>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/hasRelatedSynonym"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/hasOBONamespace"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/hasExactSynonym"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/hasAlternativeId"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_alternative_id</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_123484 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_123484">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tripterygium</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_91835"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_genus"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_131567 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_131567">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular organisms</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biota</obo:hasRelatedSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1437010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1437010">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boreoeutheria</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32524"/>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boreotheria</obo:hasRelatedSynonym>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11743200</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11791233</obo:hasDbXref>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1437183 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1437183">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mesangiospermae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1437201 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1437201">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pentapetalae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_71240"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1461172 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1461172">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Menispermoideae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_41768"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_subfamily"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1463138 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1463138">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ranunculoideae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_41768"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_subfamily"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_152363 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_152363">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sinomenium acutum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1461172"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_158558 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_158558">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aristolochia mollissima</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_16736"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xun gu feng</obo:hasExactSynonym>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_16736 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_16736">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Piperales</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1437183"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_order"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_183075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_183075">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sigesbeckia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_91882"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:185188</obo:hasAlternativeId>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Siegesbeckia</obo:hasRelatedSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_genus"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_205465 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_205465">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tripterygium hypoglaucum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_123484"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tripterygium hypoglaucu</obo:hasRelatedSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_227910 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_227910">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taxillus sutchuenensis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1437201"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taxillus sutchuenensis (Lecomte) Danser</obo:hasRelatedSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_228726 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_228726">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vincetoxicum pycnostelma</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4056"/>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asclepias paniculata</obo:hasRelatedSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cynanchum paniculatum</obo:hasRelatedSynonym>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:714464</obo:hasAlternativeId>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pycnostelma paniculatum</obo:hasRelatedSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vincetoxicum paniculatum (Bunge) Kitag., non. (R.Br.) Kuntze, 1891</obo:hasRelatedSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vincetoxicum paniculatum, nom. illeg.</obo:hasRelatedSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_265764 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_265764">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eleutherococcus gracilistylus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_364270"/>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acanthopanax gracilistylus</obo:hasRelatedSynonym>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2759 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2759">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eukaryota</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_131567"/>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eucarya</obo:hasRelatedSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eucaryotae</obo:hasRelatedSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eukarya</obo:hasRelatedSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eukaryotae</obo:hasRelatedSynonym>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:23020233</obo:hasDbXref>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eucaryotes</obo:hasExactSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eukaryotes</obo:hasExactSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eukaryotes</obo:hasRelatedSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_superkingdom"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_28545 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_28545">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strychnos nux-vomica</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4055"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strychnos nux-vomica L.</obo:hasRelatedSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strychnos nuxvomica</obo:hasRelatedSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_32524 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32524">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amniota</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33213"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amniotes</obo:hasExactSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_33213 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33213">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bilateria</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_3498 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3498">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morus alba</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3744"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morus sinensis</obo:hasRelatedSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">white mulberry</obo:hasExactSynonym>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_35924 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_35924">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paeonia lactiflora</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1437201"/>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese peony</obo:hasExactSynonym>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:65562</obo:hasAlternativeId>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paeonia albiflora</obo:hasRelatedSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">common garden peony</obo:hasExactSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_364270 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_364270">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apiineae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_91882"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_suborder"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_36603 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_36603">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chaenomeles</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3744"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_genus"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_3744 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3744">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rosales</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_91835"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:3473</obo:hasAlternativeId>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:3601</obo:hasAlternativeId>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:4266</obo:hasAlternativeId>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_order"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_3845 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3845">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erythrina variegata</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_91835"/>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erythrina indica</obo:hasRelatedSynonym>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indian coral tree</obo:hasExactSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ci tong</obo:hasExactSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dabdab</obo:hasExactSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_4055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_4055">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gentianales</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_91888"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_order"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_4056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_4056">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apocynaceae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4055"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:4064</obo:hasAlternativeId>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dogbane family</obo:hasExactSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_family"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_40917 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_40917">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heracleum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_364270"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cow parsnips</obo:hasExactSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_genus"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_41768 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_41768">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ranunculales</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_71240"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:3439</obo:hasAlternativeId>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_order"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_425106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_425106">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stephania tetrandra</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1461172"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stephania tetrandra S.Moore</obo:hasRelatedSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_434238 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_434238">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pistacia terebinthus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_71275"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">terebinth</obo:hasExactSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">turpentine-tree</obo:hasExactSynonym>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_450288 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_450288">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Piper wallichii</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_16736"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Piper wallichii (Miq.) Hand.-Mazz.</obo:hasRelatedSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_458696 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_458696">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tripterygium wilfordii</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_123484"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_50765 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_50765">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gentiana macrophylla</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4055"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_54229 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_54229">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clerodendrum trichotomum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_91888"/>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clerodendron trichotomum</obo:hasRelatedSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clerodendrum trichotonum</obo:hasRelatedSynonym>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:488980</obo:hasAlternativeId>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_69389 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_69389">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trachelospermum jasminoides</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4056"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7091">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bombyx mori</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33213"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domestic silkworm</obo:hasExactSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">silk moth</obo:hasExactSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">silkworm</obo:hasExactSynonym>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_71240 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_71240">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eudicotyledons</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1437183"/>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dicotyledoneae</obo:hasRelatedSynonym>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Magnoliopsida</obo:hasRelatedSynonym>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:3399</obo:hasAlternativeId>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dicots</obo:hasRelatedSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dicotyledons</obo:hasRelatedSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eudicots</obo:hasRelatedSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_71274 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_71274">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asterids</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1437201"/>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asteridae</obo:hasExactSynonym>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_subclass"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_71275 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_71275">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rosids</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1437201"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rosidae</obo:hasRelatedSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_subclass"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_714477 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_714477">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homalomena occulta</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1437183"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_748693 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_748693">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clematis chinensis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1463138"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_85363 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_85363">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aconitum carmichaelii</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1463138"/>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aconitum carmichaeli</obo:hasRelatedSynonym>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8587 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8587">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ptyas dhumnades</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32524"/>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coluber dhumnades</obo:hasRelatedSynonym>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:8588</obo:hasAlternativeId>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zaocys dhumnades</obo:hasRelatedSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zaocys dhumnades dhumnades</obo:hasRelatedSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_91835 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_91835">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fabids</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_71275"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:41939</obo:hasAlternativeId>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:4293</obo:hasAlternativeId>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eurosids I</obo:hasRelatedSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_91882 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_91882">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">campanulids</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_71274"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:41940</obo:hasAlternativeId>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:4379</obo:hasAlternativeId>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">euasterids II</obo:hasRelatedSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_91888 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_91888">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lamiids</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_71274"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:41935</obo:hasAlternativeId>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">euasterids I</obo:hasRelatedSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homo sapiens</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1437010"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human</obo:hasExactSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">humans</obo:hasRelatedSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">man</obo:hasExactSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9694 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9694">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Panthera tigris</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1437010"/>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</obo:hasDbXref>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</obo:hasOBONamespace>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tiger</obo:hasExactSynonym>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+

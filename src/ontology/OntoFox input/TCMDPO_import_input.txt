@@ -1,0 +1,48 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ocmr/TCMDPO_import.owl
+
+[Source ontology]
+TCMDPO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/TCMDPO_0000156
+http://purl.obolibrary.org/obo/TCMDPO_0000157
+http://purl.obolibrary.org/obo/TCMDPO_0000167
+http://purl.obolibrary.org/obo/TCMDPO_0000328
+http://purl.obolibrary.org/obo/TCMDPO_0000329
+http://purl.obolibrary.org/obo/TCMDPO_0000192
+http://purl.obolibrary.org/obo/TCMDPO_0000330
+http://purl.obolibrary.org/obo/TCMDPO_0000159
+http://purl.obolibrary.org/obo/TCMDPO_0000331
+http://purl.obolibrary.org/obo/TCMDPO_0000332
+http://purl.obolibrary.org/obo/TCMDPO_0000158
+http://purl.obolibrary.org/obo/TCMDPO_0000333
+http://purl.obolibrary.org/obo/TCMDPO_0000334
+http://purl.obolibrary.org/obo/TCMDPO_0000336
+http://purl.obolibrary.org/obo/TCMDPO_0000165
+http://purl.obolibrary.org/obo/TCMDPO_0000163
+http://purl.obolibrary.org/obo/TCMDPO_0000161
+http://purl.obolibrary.org/obo/TCMDPO_0000337
+http://purl.obolibrary.org/obo/TCMDPO_0000152
+http://purl.obolibrary.org/obo/TCMDPO_0000168
+http://purl.obolibrary.org/obo/TCMDPO_0000160
+http://purl.obolibrary.org/obo/TCMDPO_0000155
+http://purl.obolibrary.org/obo/TCMDPO_0000229
+http://purl.obolibrary.org/obo/TCMDPO_0000338
+http://purl.obolibrary.org/obo/TCMDPO_0000339
+http://purl.obolibrary.org/obo/TCMDPO_0000288
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/TCMDPO_0000001
+http://purl.obolibrary.org/obo/TCMDPO_0000062
+http://purl.obolibrary.org/obo/TCMDPO_0000064
+http://purl.obolibrary.org/obo/TCMDPO_0000063
+http://purl.obolibrary.org/obo/TCMDPO_0000065
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+[Source annotation URIs to be excluded]

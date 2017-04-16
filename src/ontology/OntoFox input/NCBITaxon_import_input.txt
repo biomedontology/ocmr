@@ -1,0 +1,46 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ocmr/NCBITaxon_import.owl
+
+[Source ontology]
+NCBITaxon
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCBITaxon_748693 #??? Clematis chinensis
+http://purl.obolibrary.org/obo/NCBITaxon_40917 #?? Heracleum
+http://purl.obolibrary.org/obo/NCBITaxon_227910 #??? Taxillus sutchuenensis
+http://purl.obolibrary.org/obo/NCBITaxon_458696 #??? Tripterygium wilfordii
+http://purl.obolibrary.org/obo/NCBITaxon_205465 #????? Tripterygium hypoglaucum
+http://purl.obolibrary.org/obo/NCBITaxon_85363 #??  Aconitum carmichaelii
+http://purl.obolibrary.org/obo/NCBITaxon_7091 #??(?) silkworm
+http://purl.obolibrary.org/obo/NCBITaxon_54229 #??? Clerodendrum trichotomum
+http://purl.obolibrary.org/obo/NCBITaxon_425106 #??? Stephania tetrandra
+http://purl.obolibrary.org/obo/NCBITaxon_450288 #??? Piper wallichii???
+http://purl.obolibrary.org/obo/NCBITaxon_3845 #??? Erythrina variegata
+http://purl.obolibrary.org/obo/NCBITaxon_9694 #??(?) Panthera tigris
+http://purl.obolibrary.org/obo/NCBITaxon_69389 #???  Trachelospermum jasminoides
+http://purl.obolibrary.org/obo/NCBITaxon_36603 #?? Chaenomeles
+http://purl.obolibrary.org/obo/NCBITaxon_714477 #??? Homalomena occulta
+http://purl.obolibrary.org/obo/NCBITaxon_50765 #?? Gentiana macrophylla
+http://purl.obolibrary.org/obo/NCBITaxon_3498 #??  Morus alba
+http://purl.obolibrary.org/obo/NCBITaxon_434238 #??  Pistacia terebinthus
+http://purl.obolibrary.org/obo/NCBITaxon_8587 #???   Ptyas dhumnades
+http://purl.obolibrary.org/obo/NCBITaxon_265764 #??? Eleutherococcus gracilistylus
+http://purl.obolibrary.org/obo/NCBITaxon_183075 #??? Sigesbeckia
+http://purl.obolibrary.org/obo/NCBITaxon_228726 #??? Vincetoxicum pycnostelma
+http://purl.obolibrary.org/obo/NCBITaxon_28545 #??? Strychnos nux-vomica
+http://purl.obolibrary.org/obo/NCBITaxon_158558 #??? Aristolochia mollissima
+http://purl.obolibrary.org/obo/NCBITaxon_9606 # homo sapiens
+http://purl.obolibrary.org/obo/NCBITaxon_152363 # Sinomenium acutum
+http://purl.obolibrary.org/obo/NCBITaxon_35924 # Paeonia lactiflora Pall
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/NCBITaxon_131567 #cellular organism
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

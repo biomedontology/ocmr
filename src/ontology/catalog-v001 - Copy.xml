@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ocmr/BFO_import.owl" uri="catalog-v001.xml"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ocmae/CHEBI_import.owl" uri="ChEBI_import.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1486070209957" name="http://purl.obolibrary.org/obo/bfo.owl" uri="BFO_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1486070209957" name="http://purl.obolibrary.org/obo/ocmae/NCBITaxon_import.owl" uri="NCBITaxon_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1486070209957" name="duplicate:http://purl.obolibrary.org/obo/ocmr.owl" uri="ocmr-merged.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1486070209957" name="duplicate:http://purl.obolibrary.org/obo/ocmr.owl" uri="ocmr.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1486070209957" name="http://purl.obolibrary.org/obo/ocmr/CHEBI_import.owl" uri="ChEBI_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1486070209957" name="http://purl.obolibrary.org/obo/ocmr/TCMDPO_import.owl" uri="TCMDPO_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1486070209957" name="http://purl.obolibrary.org/obo/ocvdae/DrON_import.owl." uri="DrON_import.owl"/>
+    </group>
+</catalog>

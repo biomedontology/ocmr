@@ -1,0 +1,497 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ocmr/PO_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ocmr/PO_import.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ocmr/PO_import.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/hasNarrowSynonym"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/hasRelatedSynonym"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/hasExactSynonym"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/inSubset"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/created_by"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_alternative_id</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/creation_date"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/hasDbXref"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/hasOBONamespace"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/hasAlternativeId"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/id"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_narrow_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_broad_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/hasBroadSynonym"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0004518 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0004518">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bark</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009007"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A portion of plant tissue (PO:0009007) outside the vascular cambium (PO:0005598) or the xylem (PO:0005352); in older trees may be divided into dead outer bark and living inner bark, which consists of secondary phloem (PO:0005043).</obo:IAO_0000115>
+        <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0004518</obo:id>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">corteza (Spanish, exact)</obo:hasExactSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_anatomy</obo:hasOBONamespace>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portion of bark tissue (exact)</obo:hasExactSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">樹皮 (Japanese, exact)</obo:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#TraitNet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0006036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0006036">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root epidermis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009007"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A portion of epidermis (PO:0005679) that is part of a root (PO:0009005).</obo:IAO_0000115>
+        <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0006036</obo:id>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0006037</obo:hasAlternativeId>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO_GIT:111</obo:hasDbXref>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The root epidermis is different from the shoot epidermis in its origin, function and structure.</rdfs:comment>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epiblem (related)</obo:hasRelatedSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epidermis de la ra&amp;#237z (Spanish, exact)</obo:hasExactSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_anatomy</obo:hasOBONamespace>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhizodermis (related)</obo:hasRelatedSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">根表皮 (Japanese, exact)</obo:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009001">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fruit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025496"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fruit (PO:0009001) may contain additional plant structures (PO:0009011) that were part of a flower (PO:0009046) and mature along with the gynoecium, such as a receptacle (PO:0009064). A fruit may develop without fertilization in cases of parthenocarpy, apomixis, or other hormone-induced conditions and may not always contain seeds (PO:0009010). When annotating to fruit (PO:0009001) that are referred to as ‘aggregate’, ‘multiple’, or ‘compound’, please annotate directly to the appropriate plant structure, such as receptacle, hypanthium (PO:0009065) or infructescence (PO:0006342). Fruits only occur in angiosperms.</rdfs:comment>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A multi-tissue plant structure (PO:0025496) that develops from a gynoecium (PO:0009062), or a single carpel (PO:0009030), and at maturity may have as parts one or more seeds (PO:0009010).</obo:IAO_0000115>
+        <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0009001</obo:id>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0020067</obo:hasAlternativeId>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0020068</obo:hasAlternativeId>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0020069</obo:hasAlternativeId>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0020070</obo:hasAlternativeId>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0020071</obo:hasAlternativeId>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0020072</obo:hasAlternativeId>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0020073</obo:hasAlternativeId>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0020074</obo:hasAlternativeId>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0020076</obo:hasAlternativeId>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0020077</obo:hasAlternativeId>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0020078</obo:hasAlternativeId>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0020079</obo:hasAlternativeId>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0020080</obo:hasAlternativeId>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0020082</obo:hasAlternativeId>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0020083</obo:hasAlternativeId>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0020087</obo:hasAlternativeId>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0020107</obo:hasAlternativeId>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO_GIT:76</obo:hasDbXref>
+        <obo:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aggregate fruit  (broad)</obo:hasBroadSynonym>
+        <obo:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coenocarp (narrow)</obo:hasNarrowSynonym>
+        <obo:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compound fruit  (broad)</obo:hasBroadSynonym>
+        <obo:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dehiscent fruit  (broad)</obo:hasBroadSynonym>
+        <obo:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diaspore  (broad)</obo:hasBroadSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">frucht (exact, German)</obo:hasExactSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fruto (exact, Spanish)</obo:hasExactSynonym>
+        <obo:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indehiscent fruit  (broad)</obo:hasBroadSynonym>
+        <obo:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multiple fruit  (broad)</obo:hasBroadSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_anatomy</obo:hasOBONamespace>
+        <obo:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">propagule  (broad)</obo:hasBroadSynonym>
+        <obo:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">syncarp (narrow)</obo:hasNarrowSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">果実 (exact, Japanese)</obo:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#Angiosperm"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#Arabidopsis"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#Maize"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#Poaceae"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#Rice"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#TraitNet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009005">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025004"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant axis (PO:0025004) that lacks shoot axis nodes (PO:0005004) and usually grows indeterminately.</obo:IAO_0000115>
+        <obo:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0003006</obo:hasAlternativeId>
+        <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0009005</obo:id>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO_GIT:578</obo:hasDbXref>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roots function in the absorption of water and inorganic nutrients, anchoring the plant body to the substrate and supporting it, storage of food and nutrients, and vegetative reproduction. The roots of most vascular plant species enter into symbiosis with soil-borne microorganisms. Roots are usually positively geotropic and found underground, although there are many exceptions such as the aerial roots of orchids. Roots often form secondary thickening from the root lateral meristem (PO:0006308). Commonly thought of as one of the three basic parts of the plant body, along with the shoot axis (PO:0025029) and leaves (PO:0025034).</rdfs:comment>
+        <obo:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aerial root (narrow)</obo:hasNarrowSynonym>
+        <obo:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">climbing root (narrow)</obo:hasNarrowSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_anatomy</obo:hasOBONamespace>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ra&amp;#237z (Spanish, exact)</obo:hasExactSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radices (exact, plural)</obo:hasExactSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radix (exact)</obo:hasExactSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">根 (Japanese, exact)</obo:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#Angiosperm"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#Gymnosperms"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#Maize"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#Musa"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#Potato"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#Rice"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#Tomato"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#TraitNet"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#reference"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009006">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shoot system</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009011"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A collective plant organ structure (PO:0025007) that produces shoot-borne portions of meristem tissue (PO:0009013) and the plant structures (PO:0009011) that arise from them.</obo:IAO_0000115>
+        <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0009006</obo:id>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO_GIT:135</obo:hasDbXref>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poaceae crown (related)</obo:hasRelatedSynonym>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The shoot system is generally used to refer to the above-ground plant parts, although some plants have parts of their shoot system underground. For example, a rhizome (PO:0004542), bulb (PO:0025356), a corm (PO:0025355) or a subterranean tuber (PO:0004547), as in Solanum tuberosum (potato) or yam, are all part of the shoot system.</rdfs:comment>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_anatomy</obo:hasOBONamespace>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shoot (related)</obo:hasRelatedSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sistema de epiblasto (epiblastema) (Spanish, exact)</obo:hasExactSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thalli (related)</obo:hasRelatedSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thallus (related)</obo:hasRelatedSynonym>
+        <obo:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tree crown (narrow)</obo:hasNarrowSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">シュート系、苗条系 (Japanese, exact)</obo:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#TraitNet"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#reference"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009007">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portion of plant tissue</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009011"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant structure (PO:0009011) that consists predominantly of similarly specialized plant cells (PO:0009002) of one or more types.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A portion of plant tissue may contain one or several types of cells that are organized in a specific spatial arrangement into a structural unit (which includes a mass of callus) and may include an intercellular matrix. May include other types of isolated cells, such as idioblasts.</rdfs:comment>
+        <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0009007</obo:id>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO_GIT:59</obo:hasDbXref>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant tissue (related)</obo:hasRelatedSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_anatomy</obo:hasOBONamespace>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">porci&amp;#243n de un tejido vegetal (Spanish, exact)</obo:hasExactSynonym>
+        <obo:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portion of tissue (broad)</obo:hasBroadSynonym>
+        <obo:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tissue (broad)</obo:hasBroadSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">植物組織の一部 (Japanese, exact)</obo:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#TraitNet"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#reference"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009008">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant organ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025496"/>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&amp;#243rgano vegetal (Spanish, exact)</obo:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A multi-tissue plant structure (PO:0025496) that is a functional unit, is a proper part of a whole plant (PO:0000003), and includes portions of plant tissue (PO:0009007) of at least two different types that derive from a common developmental path.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Examples include stem (PO:0009047), leaf (PO:0025034), and root (PO:0009005). May include individual plant cells (PO:0009002) that are not part of a portion of plant tissue (e.g., idioblasts, PO:0000283). A plant organ may have one or more different plant organs as parts, such as a sporophyll (PO:0009026) that may have as part a sporangium (PO:0025094) or a carpel (PO:0009030) that may have as part a plant ovule (PO:0020003).</rdfs:comment>
+        <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0009008</obo:id>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO_GIT:55</obo:hasDbXref>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compound plant organ (related)</obo:hasRelatedSynonym>
+        <obo:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organ (broad)</obo:hasBroadSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_anatomy</obo:hasOBONamespace>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">simple plant organ (related)</obo:hasRelatedSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">植物 器官 (Japanese, exact)</obo:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#TraitNet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009010">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seed</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025496"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A multi-tissue plant structure (PO:0025496) that develops from a plant ovule (PO:0020003) and has as parts a plant embryo (PO:0009009) enclosed in a seed coat (PO:0009088).</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A seed generally develops from an ovule (PO:0020003) after fertilization, but may develop without fertilization in the case of apogamy (e.g., adventitious embryos or somatic embryos). A seed is a reproductive unit of seed plants (gymnosperms, angiosperms, and fossil pteridosperms).</rdfs:comment>
+        <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0009010</obo:id>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO_GIT:405</obo:hasDbXref>
+        <obo:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diaspore (broad)</obo:hasBroadSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_anatomy</obo:hasOBONamespace>
+        <obo:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pyrene (narrow)</obo:hasNarrowSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">semilla (Spanish, exact)</obo:hasExactSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">種子 (Japanese, exact)</obo:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#Angiosperm"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#Arabidopsis"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#Citrus"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#Gymnosperms"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#Maize"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#Poaceae"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#Rice"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#Tomato"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#TraitNet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009011">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant structure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025131"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&#39;Part&#39; includes both proper parts and the whole plant. CARO:0000003 anatomical structure is defined as: Material anatomical entity that has inherent 3D shape and is generated by coordinated expression of the organism&#39;s own genome.</rdfs:comment>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anatomical structure that is or was part of a plant, or was derived from a part of a plant.</obo:IAO_0000115>
+        <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0009011</obo:id>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO_GIT:57</obo:hasDbXref>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">estructura vegetal (Spanish, exact)</obo:hasExactSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_anatomy</obo:hasOBONamespace>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">植物 構造 (Japanese, exact)</obo:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#TraitNet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009047">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stem</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025029"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A shoot axis (PO:0025029) that is the primary axis of a plant.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A stem often bears leaves and buds. It is usually above ground, and is more or less negatively geotropic.</rdfs:comment>
+        <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0009047</obo:id>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO_GIT:52</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO_GIT:96</obo:hasDbXref>
+        <obo:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bole (narrow)</obo:hasNarrowSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ca&amp;#241a (Spanish, exact)</obo:hasExactSynonym>
+        <obo:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cane (narrow)</obo:hasNarrowSynonym>
+        <obo:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">caudex (narrow)</obo:hasNarrowSynonym>
+        <obo:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">caudices (narrow)</obo:hasNarrowSynonym>
+        <obo:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">core (narrow)</obo:hasNarrowSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">culm (exact)</obo:hasExactSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eje primario (Spanish, exact)</obo:hasExactSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_anatomy</obo:hasOBONamespace>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary axis (exact)</obo:hasExactSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary stem (exact)</obo:hasExactSynonym>
+        <obo:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primocane (narrow)</obo:hasNarrowSynonym>
+        <obo:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scape (narrow)</obo:hasNarrowSynonym>
+        <obo:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stalk (narrow)</obo:hasNarrowSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tallo (Spanish, exact)</obo:hasExactSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tronco (Spanish, exact)</obo:hasExactSynonym>
+        <obo:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trunk (narrow)</obo:hasNarrowSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">茎 (Japanese, exact)</obo:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#TraitNet"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#reference"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025004">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant axis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009008"/>
+        <obo:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-07-01T03:44:41Z</obo:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An axial plant organ (PO:0009008).</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Includes roots and shoots.</rdfs:comment>
+        <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0025004</obo:id>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eje de la planta (Spanish, exact)</obo:hasExactSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant axes (exact, plural)</obo:hasExactSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_anatomy</obo:hasOBONamespace>
+        <obo:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rwalls</obo:created_by>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">植物軸（軸柱） (Japanese, exact)</obo:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#TraitNet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025029">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shoot axis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025004"/>
+        <obo:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-07-01T03:46:35Z</obo:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant axis (PO:0025004) that is part of a shoot system (PO:0009006).</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Often bears leaves and branches. In vascular plants, has at least one node and one internode.</rdfs:comment>
+        <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0025029</obo:id>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">caullome (exact)</obo:hasExactSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eje del epiblasto (epiblastema) (Spanish, exact)</obo:hasExactSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_anatomy</obo:hasOBONamespace>
+        <obo:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rwalls</obo:created_by>
+        <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shoot (related)</obo:hasRelatedSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">シュート軸 (Japanese, exact)</obo:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#Angiosperm"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#Arabidopsis"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#Maize"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#Poaceae"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#Rice"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#TraitNet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025034">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leaf</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009008"/>
+        <obo:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-07-12T01:31:44Z</obo:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A phyllome (PO:0006001) that is not associated with a reproductive structure.</obo:IAO_0000115>
+        <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0025034</obo:id>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO_GIT:274</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO_GIT:301</obo:hasDbXref>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hoja (Spanish, exact)</obo:hasExactSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_anatomy</obo:hasOBONamespace>
+        <obo:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rwalls</obo:created_by>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">葉 (Japanese, exact)</obo:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#TraitNet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025073">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">branch</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025029"/>
+        <obo:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-07-01T04:21:46Z</obo:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A shoot axis (PO:00025029) that develops from an axillary bud meristem (PO:0000232) or from equal divisions of a meristematic apical cell (PO:0030007).</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In vascular plants, branches arise from an axillary bud meristem (PO:0000232) and from divisions of the meristematic apical cell (PO:0030007) in non-vascular plants.</rdfs:comment>
+        <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0025073</obo:id>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO_GIT:134</obo:hasDbXref>
+        <obo:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">branchlet (narrow)</obo:hasNarrowSynonym>
+        <obo:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">higher order axis (narrow)</obo:hasNarrowSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_anatomy</obo:hasOBONamespace>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ramificaci&amp;#243n (Spanish, exact)</obo:hasExactSynonym>
+        <obo:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rwalls</obo:created_by>
+        <obo:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">secondary axis (narrow)</obo:hasNarrowSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shoot axis branch (exact)</obo:hasExactSynonym>
+        <obo:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tertiary axis (narrow)</obo:hasNarrowSynonym>
+        <obo:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">twig (narrow)</obo:hasNarrowSynonym>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">枝 (Japanese, exact)</obo:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/po#TraitNet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025131 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025131">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant anatomical entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-11-15T11:41:38Z</obo:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anatomical entity that is or was part of a plant.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Includes both material entities such as plant structures and immaterial entities such as plant anatomical spaces. CARO:0000000 anatomical entity is defined as: Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species.</rdfs:comment>
+        <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0025131</obo:id>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO_GIT:224</obo:hasDbXref>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entidad anat&amp;#243mica vegetal (Spanish, exact)</obo:hasExactSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_anatomy</obo:hasOBONamespace>
+        <obo:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rwalls</obo:created_by>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">植物 解剖学（形態）的実体 (Japanese, exact)</obo:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025496 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025496">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multi-tissue plant structure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009011"/>
+        <obo:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-06-11T14:57:00Z</obo:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant structure (PO:0009011) that has as parts two or more portions of plant tissue (PO:0009007) of at least two different types and which through specific morphogenetic processes forms a single structural unit demarcated by primarily bona-fide boundaries from other structural units of different types.</obo:IAO_0000115>
+        <obo:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laurel_Cooper</obo:created_by>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Most multi-tissue plant structures have at least a small connection to other plant structures via a fiat boundary, such as where a leaf (PO:0025034) connects to a shoot axis (PO:0025029), a petal (PO:0009032) connects to a receptacle (PO:0009064), or a branch (PO:0025073) connects to a stem (PO:0009047).</rdfs:comment>
+        <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO:0025496</obo:id>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO_GIT:480</obo:hasDbXref>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">estructura vegetal con m&amp;#250ltiples tejidos (Spanish, exact)</obo:hasExactSynonym>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_anatomy</obo:hasOBONamespace>
+        <obo:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">複数の組織からなる植物構造 (Japanese, exact)</obo:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+

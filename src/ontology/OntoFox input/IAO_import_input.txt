@@ -1,0 +1,40 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ocmr/IAO_import.owl
+
+[Source ontology]
+IAO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/IAO_0000119 #definition source 
+http://purl.obolibrary.org/obo/IAO_0000219 #denotes
+http://purl.obolibrary.org/obo/IAO_0000136 #is about
+http://purl.obolibrary.org/obo/IAO_0000028 #symbol
+http://purl.obolibrary.org/obo/IAO_0000109 #measurement datum
+http://purl.obolibrary.org/obo/IAO_0000120 #metadata complete
+http://purl.obolibrary.org/obo/IAO_0000122 #ready for release
+http://purl.obolibrary.org/obo/IAO_0000005 #objective specification
+http://purl.obolibrary.org/obo/IAO_0000033 #directive information entity
+http://purl.obolibrary.org/obo/IAO_0000104 #plan specification
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000031
+
+http://purl.obolibrary.org/obo/IAO_0000005 #objective specification
+subClassOf http://purl.obolibrary.org/obo/IAO_0000033 #directive information entity
+
+http://purl.obolibrary.org/obo/IAO_0000104 #plan specification
+subClassOf http://purl.obolibrary.org/obo/IAO_0000033 #directive information entity
+
+http://purl.obolibrary.org/obo/IAO_0000033 #directive information entity
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Branch extractions from source term URIs and target direct superclass URIs]
+
+
+[Source annotation URIs]
+includeAllAxiomsRecursively

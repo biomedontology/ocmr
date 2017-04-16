@@ -1,0 +1,19 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ocmr/DrON_OntoFox_import.owl
+
+[Source ontology]
+DrON
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/DRON_00000005 #drug product
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+[Source annotation URIs to be excluded]
