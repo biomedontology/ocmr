@@ -37,7 +37,7 @@
      xmlns:subsets="&obo;ro/subsets#">
     <owl:Ontology rdf:about="&obo;ocmr.owl">
         <dc:creator>Yongqun Oliver He</dc:creator>
-        <dc:date>2017-04-16</dc:date>
+        <dc:date>2017-04-18</dc:date>
         <dc:subject xml:lang="en">An ontology of adverse events associated with Chinese medicines.</dc:subject>
         <obo:IAO_0000116 xml:lang="en">Draft version</obo:IAO_0000116>
         <dc:creator>Jiahao Wang</dc:creator>
@@ -45,7 +45,7 @@
         <dc:creator>Qingping Liu</dc:creator>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:description xml:lang="en">The Ontology of Chinese Medicine for Rheumatism (OCMR) is a biomedical ontology that represents traditional Chinese medications for treating various rheumatism diseases, their ingredients, and adverse events, and other related information.</dc:description>
-        <owl:versionInfo xml:lang="en">Vision Release; 1.0.8</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release; 1.0.9</owl:versionInfo>
         <owl:imports rdf:resource="&obo;dron.owl"/>
         <owl:imports rdf:resource="&obo;ocmr_chebi_links.owl"/>
         <owl:imports rdf:resource="&obo;ocmr_oae_links.owl"/>
@@ -247,7 +247,7 @@
     <!-- http://purl.obolibrary.org/obo/TCMDPO_0000155 -->
 
     <rdf:Description rdf:about="&obo;TCMDPO_0000155">
-        <rdfs:label>paniculate swallowwort root TCM</rdfs:label>
+        <rdfs:label>Paniculate Swallowwort Root TCD</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;chebi#BFO_0000051"/>
@@ -287,7 +287,7 @@
     <!-- http://purl.obolibrary.org/obo/TCMDPO_0000156 -->
 
     <rdf:Description rdf:about="&obo;TCMDPO_0000156">
-        <rdfs:label>Chinese clematis root TCM</rdfs:label>
+        <rdfs:label>Chinese Clematis Root TCD</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;chebi#BFO_0000051"/>
@@ -311,7 +311,7 @@
     <!-- http://purl.obolibrary.org/obo/TCMDPO_0000157 -->
 
     <rdf:Description rdf:about="&obo;TCMDPO_0000157">
-        <rdfs:label>doubleteeth pubescent angelica root TCM</rdfs:label>
+        <rdfs:label>Doubleteeth Pubescent Angelica Root TCD</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;chebi#BFO_0000051"/>
@@ -335,7 +335,7 @@
     <!-- http://purl.obolibrary.org/obo/TCMDPO_0000158 -->
 
     <rdf:Description rdf:about="&obo;TCMDPO_0000158">
-        <rdfs:label>oriental variegated coralbean bark TCM</rdfs:label>
+        <rdfs:label>Oriental Variegated Coralbean Bark TCD</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;chebi#BFO_0000051"/>
@@ -359,7 +359,7 @@
     <!-- http://purl.obolibrary.org/obo/TCMDPO_0000159 -->
 
     <rdf:Description rdf:about="&obo;TCMDPO_0000159">
-        <rdfs:label>harlequin glorybower leaf TCM</rdfs:label>
+        <rdfs:label>Harlequin Glorybower Leaf TCD</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;chebi#BFO_0000051"/>
@@ -415,7 +415,7 @@
     <!-- http://purl.obolibrary.org/obo/TCMDPO_0000160 -->
 
     <rdf:Description rdf:about="&obo;TCMDPO_0000160">
-        <rdfs:label>siegesbeckia herb TCM</rdfs:label>
+        <rdfs:label>Siegesbeckia Herb TCD</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;chebi#BFO_0000051"/>
@@ -439,23 +439,7 @@
     <!-- http://purl.obolibrary.org/obo/TCMDPO_0000161 -->
 
     <rdf:Description rdf:about="&obo;TCMDPO_0000161">
-        <rdfs:label>mulberry twig TCM</rdfs:label>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;chebi#BFO_0000051"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="&obo;PO_0009047"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_3498"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:label>Mulberry Twig TCD</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;chebi#BFO_0000051"/>
@@ -472,6 +456,22 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;chebi#BFO_0000051"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;PO_0009047"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_3498"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </rdf:Description>
     
 
@@ -479,7 +479,7 @@
     <!-- http://purl.obolibrary.org/obo/TCMDPO_0000163 -->
 
     <rdf:Description rdf:about="&obo;TCMDPO_0000163">
-        <rdfs:label>largeleaf gentian root TCM</rdfs:label>
+        <rdfs:label>Largeleaf Gentian Root TCD</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;chebi#BFO_0000051"/>
@@ -503,23 +503,7 @@
     <!-- http://purl.obolibrary.org/obo/TCMDPO_0000165 -->
 
     <rdf:Description rdf:about="&obo;TCMDPO_0000165">
-        <rdfs:label>obscured homalomena rhizome TCM</rdfs:label>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;chebi#BFO_0000051"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="&obo;PO_0009047"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_714477"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:label>Obscured Homalomena Rhizome TCD</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;chebi#BFO_0000051"/>
@@ -536,6 +520,22 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;chebi#BFO_0000051"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;PO_0009047"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_714477"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </rdf:Description>
     
 
@@ -543,7 +543,7 @@
     <!-- http://purl.obolibrary.org/obo/TCMDPO_0000167 -->
 
     <rdf:Description rdf:about="&obo;TCMDPO_0000167">
-        <rdfs:label>Chinese taxillus herb TCM</rdfs:label>
+        <rdfs:label>Chinese Taxillus Herb TCD</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;chebi#BFO_0000051"/>
@@ -567,7 +567,7 @@
     <!-- http://purl.obolibrary.org/obo/TCMDPO_0000168 -->
 
     <rdf:Description rdf:about="&obo;TCMDPO_0000168">
-        <rdfs:label>acanthopanax root bark TCM</rdfs:label>
+        <rdfs:label>Acanthopanax Root Bark TCD</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;chebi#BFO_0000051"/>
@@ -591,7 +591,7 @@
     <!-- http://purl.obolibrary.org/obo/TCMDPO_0000192 -->
 
     <rdf:Description rdf:about="&obo;TCMDPO_0000192">
-        <rdfs:label>prepared common monkshood branched root TCM</rdfs:label>
+        <rdfs:label>Prepared Common Monkshood Branched Root TCD</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;chebi#BFO_0000051"/>
@@ -615,7 +615,7 @@
     <!-- http://purl.obolibrary.org/obo/TCMDPO_0000229 -->
 
     <rdf:Description rdf:about="&obo;TCMDPO_0000229">
-        <rdfs:label>nux vomica TCM</rdfs:label>
+        <rdfs:label>Nux Vomica TCD</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;chebi#BFO_0000051"/>
@@ -639,7 +639,7 @@
     <!-- http://purl.obolibrary.org/obo/TCMDPO_0000288 -->
 
     <rdf:Description rdf:about="&obo;TCMDPO_0000288">
-        <rdfs:label>debark peony root TCM</rdfs:label>
+        <rdfs:label>Debark Peony Root TCD</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;chebi#BFO_0000051"/>
@@ -663,7 +663,7 @@
     <!-- http://purl.obolibrary.org/obo/TCMDPO_0000328 -->
 
     <rdf:Description rdf:about="&obo;TCMDPO_0000328">
-        <rdfs:label>common threewingnut root TCM</rdfs:label>
+        <rdfs:label>Common Threewingnut Root TCD</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;chebi#BFO_0000051"/>
@@ -687,7 +687,7 @@
     <!-- http://purl.obolibrary.org/obo/TCMDPO_0000329 -->
 
     <rdf:Description rdf:about="&obo;TCMDPO_0000329">
-        <rdfs:label>Tripterygii Hypoglauci Radix TCM</rdfs:label>
+        <rdfs:label>Tripterygii Hypoglauci Radix TCD</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;chebi#BFO_0000051"/>
@@ -711,7 +711,7 @@
     <!-- http://purl.obolibrary.org/obo/TCMDPO_0000330 -->
 
     <rdf:Description rdf:about="&obo;TCMDPO_0000330">
-        <rdfs:label>silk-worm droppings TCM</rdfs:label>
+        <rdfs:label>Silk-worm Droppings TCD</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;chebi#BFO_0000051"/>
@@ -735,7 +735,7 @@
     <!-- http://purl.obolibrary.org/obo/TCMDPO_0000331 -->
 
     <rdf:Description rdf:about="&obo;TCMDPO_0000331">
-        <rdfs:label>fourstamen stephania root TCM</rdfs:label>
+        <rdfs:label>Fourstamen Stephania Root TCD</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;chebi#BFO_0000051"/>
@@ -759,7 +759,7 @@
     <!-- http://purl.obolibrary.org/obo/TCMDPO_0000332 -->
 
     <rdf:Description rdf:about="&obo;TCMDPO_0000332">
-        <rdfs:label>kadsura pepper stem TCM</rdfs:label>
+        <rdfs:label>Kadsura Pepper Stem TCD</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;chebi#BFO_0000051"/>
@@ -783,7 +783,7 @@
     <!-- http://purl.obolibrary.org/obo/TCMDPO_0000333 -->
 
     <rdf:Description rdf:about="&obo;TCMDPO_0000333">
-        <rdfs:label>tiger bone TCM</rdfs:label>
+        <rdfs:label>Tiger Bone TCD</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;chebi#BFO_0000051"/>
@@ -813,7 +813,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="&obo;PO_0025034"/>
+                            <rdf:Description rdf:about="&obo;PO_0009047"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
                                 <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_69389"/>
@@ -829,7 +829,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="&obo;PO_0009047"/>
+                            <rdf:Description rdf:about="&obo;PO_0025034"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
                                 <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_69389"/>
@@ -846,7 +846,7 @@
     <!-- http://purl.obolibrary.org/obo/TCMDPO_0000336 -->
 
     <rdf:Description rdf:about="&obo;TCMDPO_0000336">
-        <rdfs:label>common floweringqince fruit TCM</rdfs:label>
+        <rdfs:label>Common Floweringqince Fruit TCD</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;chebi#BFO_0000051"/>
@@ -870,7 +870,7 @@
     <!-- http://purl.obolibrary.org/obo/TCMDPO_0000337 -->
 
     <rdf:Description rdf:about="&obo;TCMDPO_0000337">
-        <rdfs:label>Chinese pine nodular branch TCM</rdfs:label>
+        <rdfs:label>Chinese Pine Nodular Branch TCD</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;chebi#BFO_0000051"/>
@@ -894,7 +894,7 @@
     <!-- http://purl.obolibrary.org/obo/TCMDPO_0000339 -->
 
     <rdf:Description rdf:about="&obo;TCMDPO_0000339">
-        <rdfs:label>ovientvine stem TCM</rdfs:label>
+        <rdfs:label>Ovientvine Stem TCD</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;chebi#BFO_0000051"/>
@@ -938,11 +938,11 @@
     <rdf:Description rdf:about="&obo;TCMDPO_0000015">
         <rdfs:label>TCM promoting blood circulation and removing blood stasis drug</rdfs:label>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;TCMDPO_0000046">
-        <rdfs:label>TCM blood-activating and trauma-curing drug</rdfs:label>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;TCMDPO_0000057">
         <rdfs:label>TCM blood-supplementing drug</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;TCMDPO_0000046">
+        <rdfs:label>TCM blood-activating and trauma-curing drug</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;TCMDPO_0000035">
         <rdfs:label>TCM winddamp-dispelling and heat-clearing drug</rdfs:label>
@@ -951,7 +951,7 @@
         <rdfs:label>TCM winddamp-dispelling and tendon-bone-strengthening drug</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;TCMDPO_0000338">
-        <rdfs:label>wooly datchmanspipe herb TCM</rdfs:label>
+        <rdfs:label>Wooly Datchmanspipe Herb TCD</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;TCMDPO_0000007">
         <rdfs:label>TCM dispelling pathogenic wind and dampeness drug</rdfs:label>

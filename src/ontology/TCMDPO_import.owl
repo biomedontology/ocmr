@@ -85,18 +85,18 @@
         <rdfs:label xml:lang="en">has..nature </rdfs:label>
         <rdfs:label xml:lang="zh">具有...药性</rdfs:label>
         <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000001"/>
-            </owl:Restriction>
-        </rdfs:domain>
         <rdfs:range>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
                 <owl:allValuesFrom rdf:resource="&obo;TCMDPO_0000063"/>
             </owl:Restriction>
         </rdfs:range>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000001"/>
+            </owl:Restriction>
+        </rdfs:domain>
     </owl:ObjectProperty>
     
 
@@ -107,18 +107,18 @@
         <rdfs:label xml:lang="en">has...flavour</rdfs:label>
         <rdfs:label xml:lang="zh">具有...药味</rdfs:label>
         <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
-                <owl:allValuesFrom rdf:resource="&obo;TCMDPO_0000064"/>
-            </owl:Restriction>
-        </rdfs:range>
         <rdfs:domain>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
                 <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000001"/>
             </owl:Restriction>
         </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:allValuesFrom rdf:resource="&obo;TCMDPO_0000064"/>
+            </owl:Restriction>
+        </rdfs:range>
     </owl:ObjectProperty>
     
 
@@ -129,18 +129,18 @@
         <rdfs:label xml:lang="en">has...toxicity</rdfs:label>
         <rdfs:label xml:lang="zh">具有...毒性</rdfs:label>
         <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000323"/>
-                <owl:allValuesFrom rdf:resource="&obo;TCMDPO_0000065"/>
-            </owl:Restriction>
-        </rdfs:range>
         <rdfs:domain>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TCMDPO_0000323"/>
                 <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000001"/>
             </owl:Restriction>
         </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000323"/>
+                <owl:allValuesFrom rdf:resource="&obo;TCMDPO_0000065"/>
+            </owl:Restriction>
+        </rdfs:range>
     </owl:ObjectProperty>
     
 
@@ -540,12 +540,12 @@
     <!-- http://purl.obolibrary.org/obo/TCMDPO_0000152 -->
 
     <owl:Class rdf:about="&obo;TCMDPO_0000152">
-        <rdfs:label xml:lang="en">black-tail snake TCM</rdfs:label>
+        <rdfs:label xml:lang="en">Black-tail Snake TCD</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000034"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000077"/>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -556,8 +556,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000077"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="la">Zaocys</obo:IAO_0000118>
@@ -575,6 +575,12 @@
         <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000034"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000086"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
                 <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
             </owl:Restriction>
@@ -583,12 +589,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
                 <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000071"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000086"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -609,12 +609,6 @@
         <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000034"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
                 <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000071"/>
             </owl:Restriction>
@@ -631,6 +625,12 @@
                 <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="en">Chinese Clematis Root</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="la">Clematidis Radix et Rhizoma</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="zh">威灵仙</obo:IAO_0000118>
@@ -643,18 +643,6 @@
 
     <owl:Class rdf:about="&obo;TCMDPO_0000157">
         <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000034"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000089"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000325"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
@@ -673,6 +661,18 @@
                 <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000089"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000325"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="en">Doubleteeth Pubescent Angelica Root</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="la">Angelicae Pubescentis Radix</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="zh">独活</obo:IAO_0000118>
@@ -685,6 +685,12 @@
 
     <owl:Class rdf:about="&obo;TCMDPO_0000158">
         <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000035"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
@@ -701,12 +707,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
                 <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="en">Oriental Variegated Coralbean Bark</obo:IAO_0000118>
@@ -724,13 +724,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000072"/>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -741,14 +741,14 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000072"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="en">Harlequin Glorybower Leaf</obo:IAO_0000118>
@@ -765,20 +765,8 @@
         <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000035"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000089"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000067"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -789,8 +777,20 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000067"/>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000089"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="en">Siegesbeckia Herb</obo:IAO_0000118>
@@ -807,8 +807,8 @@
         <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000035"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000324"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -819,8 +819,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000324"/>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="en">Mulberry Twig</obo:IAO_0000118>
@@ -837,8 +837,14 @@
         <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000035"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000086"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -849,14 +855,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000075"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -867,8 +867,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000086"/>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000075"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="en">Largeleaf Gentian Root</obo:IAO_0000118>
@@ -885,12 +885,6 @@
         <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000036"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000071"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
                 <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
             </owl:Restriction>
@@ -899,6 +893,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
                 <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000089"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000071"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -933,18 +933,6 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
                 <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000075"/>
             </owl:Restriction>
@@ -953,6 +941,18 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
                 <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000077"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="en">Chinese Taxillus Herb</obo:IAO_0000118>
@@ -969,8 +969,8 @@
         <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000036"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000071"/>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -981,20 +981,20 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000089"/>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000071"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
                 <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000089"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="en">Acanthopanax Root Bark</obo:IAO_0000118>
@@ -1012,31 +1012,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000089"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000087"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000077"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000085"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
                 <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000326"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1048,7 +1030,25 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000085"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000089"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000077"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000087"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="en">Prepared Common Monkshood Branched Root</obo:IAO_0000118>
@@ -1065,6 +1065,18 @@
         <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000046"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000323"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000080"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
                 <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000071"/>
             </owl:Restriction>
@@ -1077,20 +1089,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
                 <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000323"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000080"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="en">Nux Vomica</obo:IAO_0000118>
@@ -1107,14 +1107,8 @@
         <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000057"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000070"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1126,7 +1120,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000070"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1182,26 +1182,20 @@
         <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000035"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TCMDPO_0000323"/>
                 <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000080"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000089"/>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1212,8 +1206,14 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000089"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="en">Common Threewingnut Root</obo:IAO_0000118>
@@ -1236,20 +1236,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000085"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TCMDPO_0000323"/>
                 <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000080"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1266,8 +1254,20 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000085"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
                 <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="en">Tripterygii Hypoglauci Radix</obo:IAO_0000118>
@@ -1285,8 +1285,8 @@
         <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000034"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000071"/>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000086"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1303,8 +1303,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000077"/>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000071"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1315,8 +1315,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000086"/>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000077"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="en">Silk-worm Droppings</obo:IAO_0000118>
@@ -1331,20 +1331,14 @@
         <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000035"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000067"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
                 <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000089"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1361,8 +1355,14 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000067"/>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000089"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="en">Fourstamen Stephania Root</obo:IAO_0000118>
@@ -1386,8 +1386,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000325"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1398,8 +1398,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000325"/>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="en">Kadsura Pepper Stem</obo:IAO_0000118>
@@ -1416,8 +1416,8 @@
         <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000036"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000071"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1428,8 +1428,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000071"/>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1450,12 +1450,24 @@
     <!-- http://purl.obolibrary.org/obo/TCMDPO_0000334 -->
 
     <owl:Class rdf:about="&obo;TCMDPO_0000334">
-        <rdfs:label xml:lang="en">Chinese starjasmine stem TCM</rdfs:label>
+        <rdfs:label xml:lang="en">Chinese Starjasmine Stem TCD</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000035"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
                 <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000087"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1468,18 +1480,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
                 <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000335"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="la">Trachlospermi Caulis et Folium</obo:IAO_0000118>
@@ -1506,14 +1506,14 @@
         <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000034"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000089"/>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000070"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000070"/>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1525,7 +1525,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000089"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="en">Common Floweringqince Fruit</obo:IAO_0000118>
@@ -1554,12 +1554,6 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000071"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
                 <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
             </owl:Restriction>
@@ -1568,6 +1562,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
                 <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000071"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="en">Chinese Pine Nodular Branch</obo:IAO_0000118>
@@ -1587,12 +1587,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
                 <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000076"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1608,6 +1602,12 @@
                 <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="en">Wooly Datchmanspipe Herb</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="https://raw.githubusercontent.com/TCMOntology/TCMDPO/master/TCMDPO.owl"/>
     </owl:Class>
@@ -1620,18 +1620,6 @@
         <rdfs:subClassOf rdf:resource="&obo;TCMDPO_0000034"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
-                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000085"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TCMDPO_0000321"/>
                 <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000075"/>
             </owl:Restriction>
@@ -1640,6 +1628,18 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
                 <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000322"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TCMDPO_0000320"/>
+                <owl:someValuesFrom rdf:resource="&obo;TCMDPO_0000085"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
