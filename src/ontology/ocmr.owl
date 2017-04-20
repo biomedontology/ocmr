@@ -37,7 +37,7 @@
      xmlns:subsets="&obo;ro/subsets#">
     <owl:Ontology rdf:about="&obo;ocmr.owl">
         <dc:creator>Yongqun Oliver He</dc:creator>
-        <dc:date>2017-04-18</dc:date>
+        <dc:date>2017-04-20</dc:date>
         <dc:subject xml:lang="en">An ontology of adverse events associated with Chinese medicines.</dc:subject>
         <obo:IAO_0000116 xml:lang="en">Draft version</obo:IAO_0000116>
         <dc:creator>Jiahao Wang</dc:creator>
@@ -45,7 +45,7 @@
         <dc:creator>Qingping Liu</dc:creator>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:description xml:lang="en">The Ontology of Chinese Medicine for Rheumatism (OCMR) is a biomedical ontology that represents traditional Chinese medications for treating various rheumatism diseases, their ingredients, and adverse events, and other related information.</dc:description>
-        <owl:versionInfo xml:lang="en">Vision Release; 1.0.10</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release; 1.0.11</owl:versionInfo>
         <owl:imports rdf:resource="&obo;dron.owl"/>
         <owl:imports rdf:resource="&obo;ocmr_chebi_links.owl"/>
         <owl:imports rdf:resource="&obo;ocmr_oae_links.owl"/>
@@ -285,6 +285,25 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000152 -->
+
+    <rdf:Description rdf:about="&obo;TCMDPO_0000152">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;chebi#BFO_0000051"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_8587"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>Black-tail Snake</obo:IAO_0000118>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/TCMDPO_0000155 -->
 
     <rdf:Description rdf:about="&obo;TCMDPO_0000155">
@@ -407,7 +426,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="&obo;PO_0025073"/>
+                            <rdf:Description rdf:about="&obo;PO_0009005"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
                                 <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_54229"/>
@@ -423,7 +442,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="&obo;PO_0009005"/>
+                            <rdf:Description rdf:about="&obo;PO_0025073"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
                                 <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_54229"/>
@@ -487,7 +506,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="&obo;PO_0009047"/>
+                            <rdf:Description rdf:about="&obo;PO_0025034"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
                                 <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_3498"/>
@@ -503,7 +522,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="&obo;PO_0025034"/>
+                            <rdf:Description rdf:about="&obo;PO_0009047"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
                                 <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_3498"/>
@@ -932,6 +951,25 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/TCMDPO_0000338 -->
+
+    <rdf:Description rdf:about="&obo;TCMDPO_0000338">
+        <rdfs:label>Wooly Datchmanspipe Herb TCD</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;chebi#BFO_0000051"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_158558"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/TCMDPO_0000339 -->
 
     <rdf:Description rdf:about="&obo;TCMDPO_0000339">
@@ -967,9 +1005,6 @@
     <rdf:Description rdf:about="&obo;TCMDPO_0000034">
         <obo:IAO_0000118>Wind-damp Dispelling and Cold-dispersing Drugs</obo:IAO_0000118>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;TCMDPO_0000152">
-        <obo:IAO_0000118>Black-tail Snake</obo:IAO_0000118>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;TCMDPO_0000020">
         <rdfs:label>TCM supplementing and boosting drug</rdfs:label>
     </rdf:Description>
@@ -979,20 +1014,17 @@
     <rdf:Description rdf:about="&obo;TCMDPO_0000015">
         <rdfs:label>TCM promoting blood circulation and removing blood stasis drug</rdfs:label>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;TCMDPO_0000035">
+        <rdfs:label>TCM winddamp-dispelling and heat-clearing drug</rdfs:label>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;TCMDPO_0000046">
         <rdfs:label>TCM blood-activating and trauma-curing drug</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;TCMDPO_0000057">
         <rdfs:label>TCM blood-supplementing drug</rdfs:label>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;TCMDPO_0000035">
-        <rdfs:label>TCM winddamp-dispelling and heat-clearing drug</rdfs:label>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;TCMDPO_0000036">
         <rdfs:label>TCM winddamp-dispelling and tendon-bone-strengthening drug</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;TCMDPO_0000338">
-        <rdfs:label>Wooly Datchmanspipe Herb TCD</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;TCMDPO_0000007">
         <rdfs:label>TCM dispelling pathogenic wind and dampeness drug</rdfs:label>
